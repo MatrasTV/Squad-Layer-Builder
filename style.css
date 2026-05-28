@@ -58,10 +58,7 @@ button, input, select { font: inherit; }
 }
 
 .header-grid {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.82fr) minmax(320px, 1.18fr);
-  gap: 24px;
-  align-items: end;
+  display: block;
 }
 
 .eyebrow {
@@ -142,7 +139,7 @@ h1 {
 
 .panel { padding: 22px; }
 
-.popular-panel, .map-panel, .mode-panel, .controls-panel { grid-column: 1 / -1; }
+.popular-panel, .map-panel, .mode-panel, .controls-panel, .command-panel { grid-column: 1 / -1; }
 
 .section-title {
   display: flex;
@@ -436,9 +433,8 @@ select option { background: #121712; color: var(--text); }
 }
 
 @media (max-width: 980px) {
-  .header-grid, .layout { grid-template-columns: 1fr; }
-  .controls-panel, .popular-panel, .map-panel, .mode-panel { grid-column: auto; grid-row: auto; }
-  .sticky-command { position: static; }
+  .layout { grid-template-columns: 1fr; }
+  .controls-panel, .popular-panel, .map-panel, .mode-panel, .command-panel { grid-column: auto; grid-row: auto; }
 }
 
 @media (max-width: 620px) {

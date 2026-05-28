@@ -23,19 +23,6 @@
         <h1>LayerForge</h1>
         <p class="subtitle" data-i18n="subtitle">Генератор AdminChangeLayer команд для Squad</p>
       </div>
-      <div class="command-card sticky-command" aria-live="polite">
-        <div class="status-row">
-          <span id="commandStatus" class="status-pill waiting" data-i18n="waitingStatus">Ожидание выбора</span>
-          <span class="format-hint" data-i18n="formatHint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
-        </div>
-        <pre id="commandPreview" class="command-preview" data-i18n="waitingCommand">Выберите слой и обе фракции, чтобы сгенерировать команду</pre>
-        <div id="warningBox" class="warning-box" hidden></div>
-        <div class="button-row">
-          <button id="copyButton" class="btn primary" type="button" data-i18n="copyButton">Скопировать команду</button>
-          <button id="swapButton" class="btn ghost" type="button" data-i18n="swapButton">Поменять фракции</button>
-          <button id="resetButton" class="btn danger" type="button" data-i18n="resetButton">Сбросить</button>
-        </div>
-      </div>
     </div>
   </header>
 
@@ -111,6 +98,20 @@
       </div>
 
       <p class="note" data-i18n="restrictionNote">Некоторые слои могут ограничивать фракции или battlegroups в зависимости от текущей версии Squad.</p>
+    </section>
+
+    <section class="command-card command-panel" aria-live="polite">
+      <div class="status-row">
+        <span id="commandStatus" class="status-pill waiting" data-i18n="waitingStatus">Ожидание выбора</span>
+        <span class="format-hint" data-i18n="formatHint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
+      </div>
+      <pre id="commandPreview" class="command-preview" data-i18n="waitingCommand">Выберите слой и обе фракции, чтобы сгенерировать команду</pre>
+      <div id="warningBox" class="warning-box" hidden></div>
+      <div class="button-row">
+        <button id="copyButton" class="btn primary" type="button" data-i18n="copyButton">Скопировать команду</button>
+        <button id="swapButton" class="btn ghost" type="button" data-i18n="swapButton">Поменять фракции</button>
+        <button id="resetButton" class="btn danger" type="button" data-i18n="resetButton">Сбросить</button>
+      </div>
     </section>
   </main>
 
