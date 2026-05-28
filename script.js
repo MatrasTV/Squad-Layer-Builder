@@ -1465,6 +1465,7 @@ const modeFilters = ["All", "AAS", "RAAS", "Invasion", "Seed", "Skirmish", "TC",
 const popularLayerNames = ["Sumari_Seed_v1", "AlBasrah_AAS_v1", "Fallujah_Invasion_v1", "Gorodok_RAAS_v1", "Yehorivka_RAAS_v1", "Mutaha_Seed_v1"];
 const storageKey = "squad-layer-builder-state-v1";
 
+
 const translations = {
   ru: {
     documentTitle: "LayerForge · Squad Layer Builder",
@@ -1476,17 +1477,21 @@ const translations = {
     waitingStatus: "Ожидание выбора",
     readyStatus: "Команда готова",
     formatHint: "AdminChangeLayer <LayerName> <Faction> <Faction>",
-    waitingCommand: "Выберите слой и обе фракции, чтобы сгенерировать команду",
+    waitingCommand: "Выберите карту, режим и обе фракции, чтобы сгенерировать команду",
     copyButton: "Скопировать команду",
     copiedButton: "Скопировано!",
     swapButton: "Поменять фракции",
     resetButton: "Сбросить",
     stepOne: "Шаг 01",
-    setupTitle: "Настройка слоя и фракций",
+    stepTwo: "Шаг 02",
+    stepThree: "Шаг 03",
+    mapsTitle: "Выберите карту",
+    modeTitle: "Выберите режим и слой",
+    setupTitle: "Выберите фракции",
     manualLayerLabel: "Ручной LayerName",
     manualLayerPlaceholder: "Пример: Sumari_Seed_v1",
     clearButton: "Очистить",
-    manualLayerHelp: "Если поле заполнено, оно используется вместо выбранной карточки карты.",
+    manualLayerHelp: "Если поле заполнено, оно используется вместо выбранного слоя.",
     factionOneTitle: "Фракция 1",
     factionTwoTitle: "Фракция 2",
     factionLabel: "Фракция",
@@ -1494,8 +1499,6 @@ const translations = {
     restrictionNote: "Некоторые слои могут ограничивать фракции или battlegroups в зависимости от текущей версии Squad.",
     quickPick: "Быстрый выбор",
     popularTitle: "Популярные слои",
-    stepTwo: "Шаг 02",
-    layersTitle: "Выберите слой карты",
     searchLabel: "Поиск карт",
     searchPlaceholder: "Поиск по карте, LayerName или режиму",
     modeFiltersAria: "Фильтры режимов слоёв",
@@ -1505,8 +1508,18 @@ const translations = {
     noUnitType: "Без типа подразделения",
     noMapImage: "Нет изображения карты",
     sameFactionWarning: "Предупреждение: обе стороны используют одну фракцию. Обычно слои Squad рассчитаны на разные игровые фракции.",
-    selectLayerAria: "Выбрать",
+    selectMapAria: "Выбрать карту",
+    selectLayerAria: "Выбрать слой",
+    selectFactionAria: "Выбрать фракцию",
     minimapAlt: "миникарта",
+    backToMaps: "Назад к картам",
+    backToModes: "Назад к режимам",
+    selectedMap: "Карта",
+    selectedLayer: "Слой",
+    layersCount: "слоёв",
+    modesCount: "режимов",
+    chooseModeHint: "Теперь выберите режим и конкретный LayerName для этой карты.",
+    chooseFactionHint: "Теперь выберите две фракции. Доступные Unit Types обновятся автоматически.",
     modeLabels: { All: "Все", AAS: "AAS", RAAS: "RAAS", Invasion: "Invasion", Seed: "Seed", Skirmish: "Skirmish", TC: "TC", Destruction: "Destruction", Insurgency: "Insurgency" },
   },
   en: {
@@ -1519,17 +1532,21 @@ const translations = {
     waitingStatus: "Waiting for selection",
     readyStatus: "Command ready",
     formatHint: "AdminChangeLayer <LayerName> <Faction> <Faction>",
-    waitingCommand: "Select layer and both factions to generate command",
+    waitingCommand: "Select a map, layer mode, and both factions to generate command",
     copyButton: "Copy command",
     copiedButton: "Copied!",
     swapButton: "Swap factions",
     resetButton: "Reset",
     stepOne: "Step 01",
-    setupTitle: "Layer and faction setup",
+    stepTwo: "Step 02",
+    stepThree: "Step 03",
+    mapsTitle: "Choose a map",
+    modeTitle: "Choose mode and layer",
+    setupTitle: "Choose factions",
     manualLayerLabel: "Manual LayerName override",
     manualLayerPlaceholder: "Example: Sumari_Seed_v1",
     clearButton: "Clear",
-    manualLayerHelp: "If this field is filled, it is used instead of the selected map card.",
+    manualLayerHelp: "If this field is filled, it is used instead of the selected layer.",
     factionOneTitle: "Faction 1",
     factionTwoTitle: "Faction 2",
     factionLabel: "Faction",
@@ -1537,8 +1554,6 @@ const translations = {
     restrictionNote: "Some layers may restrict factions or battlegroups depending on the current Squad version.",
     quickPick: "Quick pick",
     popularTitle: "Popular layers",
-    stepTwo: "Step 02",
-    layersTitle: "Choose a map layer",
     searchLabel: "Search maps",
     searchPlaceholder: "Search by map, LayerName, or mode",
     modeFiltersAria: "Layer mode filters",
@@ -1548,13 +1563,24 @@ const translations = {
     noUnitType: "No unit type",
     noMapImage: "No map image",
     sameFactionWarning: "Warning: both sides use the same faction. Squad layers usually expect opposing playable factions.",
-    selectLayerAria: "Select",
+    selectMapAria: "Select map",
+    selectLayerAria: "Select layer",
+    selectFactionAria: "Select faction",
     minimapAlt: "minimap",
+    backToMaps: "Back to maps",
+    backToModes: "Back to modes",
+    selectedMap: "Map",
+    selectedLayer: "Layer",
+    layersCount: "layers",
+    modesCount: "modes",
+    chooseModeHint: "Now choose the mode and exact LayerName for this map.",
+    chooseFactionHint: "Now choose two factions. Available Unit Types update automatically.",
     modeLabels: { All: "All", AAS: "AAS", RAAS: "RAAS", Invasion: "Invasion", Seed: "Seed", Skirmish: "Skirmish", TC: "TC", Destruction: "Destruction", Insurgency: "Insurgency" },
   },
 };
 
 const state = {
+  selectedMapName: "",
   selectedLayer: "",
   manualLayer: "",
   factionOne: "",
@@ -1568,14 +1594,22 @@ const state = {
 
 const elements = {
   mapGrid: document.getElementById("mapGrid"),
+  layerGrid: document.getElementById("layerGrid"),
   emptyMessage: document.getElementById("emptyMessage"),
+  emptyLayerMessage: document.getElementById("emptyLayerMessage"),
   mapSearch: document.getElementById("mapSearch"),
   modeFilters: document.getElementById("modeFilters"),
   popularLayers: document.getElementById("popularLayers"),
+  modePanel: document.getElementById("modePanel"),
+  factionsPanel: document.getElementById("factionsPanel"),
+  selectedMapSummary: document.getElementById("selectedMapSummary"),
+  selectedLayerSummary: document.getElementById("selectedLayerSummary"),
+  backToMaps: document.getElementById("backToMaps"),
+  backToModes: document.getElementById("backToModes"),
   manualLayer: document.getElementById("manualLayer"),
   clearManualLayer: document.getElementById("clearManualLayer"),
-  factionOne: document.getElementById("factionOne"),
-  factionTwo: document.getElementById("factionTwo"),
+  factionOneGrid: document.getElementById("factionOneGrid"),
+  factionTwoGrid: document.getElementById("factionTwoGrid"),
   unitOne: document.getElementById("unitOne"),
   unitTwo: document.getElementById("unitTwo"),
   commandPreview: document.getElementById("commandPreview"),
@@ -1611,18 +1645,43 @@ function applyTranslations() {
 function toggleLanguage() {
   state.language = state.language === "ru" ? "en" : "ru";
   applyTranslations();
-  renderFactionOptions();
-  updateUnitTypeOptions("unitOne");
-  updateUnitTypeOptions("unitTwo");
   renderModeFilters();
   renderMapCards();
+  renderLayerCards();
+  renderFactionOptions();
   renderPopularLayers();
+  updateWorkflowVisibility();
   generateCommand();
   saveState();
 }
 
+function getMapGroups() {
+  const groups = new Map();
+  maps.forEach((map) => {
+    if (!groups.has(map.name)) {
+      groups.set(map.name, {
+        name: map.name,
+        image: map.image,
+        layers: [],
+        modes: new Set(),
+      });
+    }
+    const group = groups.get(map.name);
+    group.layers.push(map);
+    group.modes.add(map.mode);
+  });
+  return Array.from(groups.values()).map((group) => ({
+    ...group,
+    modes: Array.from(group.modes),
+  }));
+}
+
 function getSelectedMap() {
   return maps.find((map) => map.layer === state.selectedLayer) || null;
+}
+
+function getSelectedMapGroup() {
+  return getMapGroups().find((group) => group.name === state.selectedMapName) || null;
 }
 
 function getLayerName() {
@@ -1645,6 +1704,15 @@ function createOption(value, text) {
   return option;
 }
 
+function createKeyboardButtonHandler(action) {
+  return (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      action();
+    }
+  };
+}
+
 function renderModeFilters() {
   elements.modeFilters.innerHTML = "";
   modeFilters.forEach((mode) => {
@@ -1655,7 +1723,7 @@ function renderModeFilters() {
     button.addEventListener("click", () => {
       state.mode = mode;
       renderModeFilters();
-      renderMapCards();
+      renderLayerCards();
       saveState();
     });
     elements.modeFilters.appendChild(button);
@@ -1664,54 +1732,97 @@ function renderModeFilters() {
 
 function renderMapCards() {
   const query = state.search.trim().toLowerCase();
-  const visibleMaps = maps.filter((map) => {
-    const matchesMode = state.mode === "All" || map.mode === state.mode;
-    const haystack = `${map.name} ${map.layer} ${map.mode}`.toLowerCase();
-    return matchesMode && (!query || haystack.includes(query));
+  const visibleMaps = getMapGroups().filter((group) => {
+    const haystack = `${group.name} ${group.layers.map((layer) => `${layer.layer} ${layer.mode}`).join(" ")}`.toLowerCase();
+    return !query || haystack.includes(query);
   });
 
   elements.mapGrid.innerHTML = "";
   elements.emptyMessage.hidden = visibleMaps.length > 0;
 
-  visibleMaps.forEach((map) => {
+  visibleMaps.forEach((group) => {
     const card = document.createElement("article");
-    card.className = `map-card${state.selectedLayer === map.layer ? " selected" : ""}`;
+    card.className = `map-card${state.selectedMapName === group.name ? " selected" : ""}`;
     card.tabIndex = 0;
     card.setAttribute("role", "button");
-    card.setAttribute("aria-pressed", String(state.selectedLayer === map.layer));
-    card.setAttribute("aria-label", `${t("selectLayerAria")} ${map.layer}`);
+    card.setAttribute("aria-pressed", String(state.selectedMapName === group.name));
+    card.setAttribute("aria-label", `${t("selectMapAria")} ${group.name}`);
 
     const badge = document.createElement("span");
     badge.className = "mode-badge";
-    badge.textContent = map.mode;
+    badge.textContent = `${group.modes.length} ${t("modesCount")}`;
 
     const image = document.createElement("img");
-    image.src = map.image;
-    image.alt = `${map.name} ${t("minimapAlt")}`;
+    image.src = group.image;
+    image.alt = `${group.name} ${t("minimapAlt")}`;
     image.loading = "lazy";
     image.addEventListener("error", () => replaceBrokenImage(image));
 
     const body = document.createElement("div");
     body.className = "card-body";
-    body.innerHTML = `<h3 class="map-name">${escapeHtml(map.name)}</h3><p class="layer-name">${escapeHtml(map.layer)}</p>`;
+    body.innerHTML = `<h3 class="map-name">${escapeHtml(group.name)}</h3><p class="layer-name">${group.layers.length} ${escapeHtml(t("layersCount"))} · ${escapeHtml(group.modes.join(", "))}</p>`;
 
     const selectMap = () => {
-      state.selectedLayer = map.layer;
+      state.selectedMapName = group.name;
+      state.selectedLayer = "";
+      state.mode = "All";
+      state.factionOne = "";
+      state.factionTwo = "";
+      state.unitOne = "";
+      state.unitTwo = "";
       renderMapCards();
+      renderModeFilters();
+      renderLayerCards();
+      renderFactionOptions();
+      updateWorkflowVisibility(true);
       generateCommand();
       saveState();
     };
 
     card.addEventListener("click", selectMap);
-    card.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        selectMap();
-      }
-    });
+    card.addEventListener("keydown", createKeyboardButtonHandler(selectMap));
 
     card.append(badge, image, body);
     elements.mapGrid.appendChild(card);
+  });
+}
+
+function renderLayerCards() {
+  const selectedGroup = getSelectedMapGroup();
+  const selectedLayers = selectedGroup ? selectedGroup.layers : [];
+  const visibleLayers = selectedLayers.filter((map) => state.mode === "All" || map.mode === state.mode);
+
+  elements.layerGrid.innerHTML = "";
+  elements.emptyLayerMessage.hidden = visibleLayers.length > 0;
+
+  visibleLayers.forEach((map) => {
+    const card = document.createElement("article");
+    card.className = `layer-card${state.selectedLayer === map.layer ? " selected" : ""}`;
+    card.tabIndex = 0;
+    card.setAttribute("role", "button");
+    card.setAttribute("aria-pressed", String(state.selectedLayer === map.layer));
+    card.setAttribute("aria-label", `${t("selectLayerAria")} ${map.layer}`);
+
+    card.innerHTML = `<span class="mode-badge layer-mode-badge">${escapeHtml(map.mode)}</span><h3>${escapeHtml(map.layer)}</h3><p>${escapeHtml(map.name)}</p>`;
+
+    const selectLayer = () => {
+      state.selectedLayer = map.layer;
+      state.manualLayer = "";
+      state.factionOne = "";
+      state.factionTwo = "";
+      state.unitOne = "";
+      state.unitTwo = "";
+      syncControlsFromState();
+      renderLayerCards();
+      renderFactionOptions();
+      updateWorkflowVisibility(true);
+      generateCommand();
+      saveState();
+    };
+
+    card.addEventListener("click", selectLayer);
+    card.addEventListener("keydown", createKeyboardButtonHandler(selectLayer));
+    elements.layerGrid.appendChild(card);
   });
 }
 
@@ -1723,20 +1834,54 @@ function replaceBrokenImage(image) {
 }
 
 function renderFactionOptions() {
-  const placeholder = createOption("", t("selectFaction"));
-  elements.factionOne.innerHTML = "";
-  elements.factionTwo.innerHTML = "";
-  elements.factionOne.appendChild(placeholder.cloneNode(true));
-  elements.factionTwo.appendChild(placeholder.cloneNode(true));
+  renderFactionCards("one");
+  renderFactionCards("two");
+  updateUnitTypeOptions("unitOne");
+  updateUnitTypeOptions("unitTwo");
+}
+
+function renderFactionCards(side) {
+  const isFirst = side === "one";
+  const grid = isFirst ? elements.factionOneGrid : elements.factionTwoGrid;
+  const selectedCode = isFirst ? state.factionOne : state.factionTwo;
+  grid.innerHTML = "";
 
   factions.forEach((faction) => {
-    const label = `${faction.code} — ${faction.name} (${faction.side})`;
-    elements.factionOne.appendChild(createOption(faction.code, label));
-    elements.factionTwo.appendChild(createOption(faction.code, label));
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `faction-option${selectedCode === faction.code ? " selected" : ""}`;
+    button.setAttribute("aria-pressed", String(selectedCode === faction.code));
+    button.setAttribute("aria-label", `${t("selectFactionAria")} ${faction.name}`);
+    button.innerHTML = `
+      <img src="${escapeHtml(faction.flag)}" alt="${escapeHtml(faction.code)} flag" loading="lazy">
+      <span><strong>${escapeHtml(faction.code)}</strong><small>${escapeHtml(faction.name)}</small></span>
+    `;
+    button.querySelector("img").addEventListener("error", (event) => {
+      event.currentTarget.replaceWith(createFlagPlaceholder(faction.code));
+    });
+    button.addEventListener("click", () => {
+      if (isFirst) {
+        state.factionOne = faction.code;
+        state.unitOne = "";
+        updateUnitTypeOptions("unitOne");
+      } else {
+        state.factionTwo = faction.code;
+        state.unitTwo = "";
+        updateUnitTypeOptions("unitTwo");
+      }
+      renderFactionCards(side);
+      generateCommand();
+      saveState();
+    });
+    grid.appendChild(button);
   });
+}
 
-  elements.factionOne.value = state.factionOne;
-  elements.factionTwo.value = state.factionTwo;
+function createFlagPlaceholder(code) {
+  const placeholder = document.createElement("span");
+  placeholder.className = "flag-placeholder";
+  placeholder.textContent = code.slice(0, 3);
+  return placeholder;
 }
 
 function updateUnitTypeOptions(selectId) {
@@ -1763,11 +1908,38 @@ function updateUnitTypeOptions(selectId) {
   }
 }
 
+function updateWorkflowVisibility(scrollToActive = false) {
+  const hasSelectedMap = Boolean(state.selectedMapName);
+  const hasLayer = Boolean(getLayerName());
+
+  elements.modePanel.hidden = !hasSelectedMap;
+  elements.factionsPanel.hidden = !hasLayer;
+
+  if (state.selectedMapName) {
+    elements.selectedMapSummary.textContent = `${t("selectedMap")}: ${state.selectedMapName}. ${t("chooseModeHint")}`;
+  } else {
+    elements.selectedMapSummary.textContent = "";
+  }
+
+  if (hasLayer) {
+    elements.selectedLayerSummary.textContent = `${t("selectedLayer")}: ${getLayerName()}. ${t("chooseFactionHint")}`;
+  } else {
+    elements.selectedLayerSummary.textContent = "";
+  }
+
+  if (scrollToActive) {
+    const target = hasLayer ? elements.factionsPanel : elements.modePanel;
+    if (target && !target.hidden) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
 function generateCommand() {
   const layerName = getLayerName();
   const factionOnePart = factionCommandPart(state.factionOne, state.unitOne);
   const factionTwoPart = factionCommandPart(state.factionTwo, state.unitTwo);
   const ready = Boolean(layerName && factionOnePart && factionTwoPart);
+
+  updateWorkflowVisibility();
 
   if (!ready) {
     elements.commandPreview.textContent = t("waitingCommand");
@@ -1830,6 +2002,7 @@ function showCopiedState() {
 }
 
 function resetForm() {
+  state.selectedMapName = "";
   state.selectedLayer = "";
   state.manualLayer = "";
   state.factionOne = "";
@@ -1841,6 +2014,9 @@ function resetForm() {
   syncControlsFromState();
   renderModeFilters();
   renderMapCards();
+  renderLayerCards();
+  renderFactionOptions();
+  updateWorkflowVisibility();
   generateCommand();
   saveState();
 }
@@ -1848,7 +2024,7 @@ function resetForm() {
 function swapFactions() {
   [state.factionOne, state.factionTwo] = [state.factionTwo, state.factionOne];
   [state.unitOne, state.unitTwo] = [state.unitTwo, state.unitOne];
-  syncControlsFromState();
+  renderFactionOptions();
   generateCommand();
   saveState();
 }
@@ -1868,7 +2044,11 @@ function loadState() {
     const saved = JSON.parse(raw);
     if (!saved || typeof saved !== "object") return;
 
+    state.selectedMapName = getMapGroups().some((group) => group.name === saved.selectedMapName) ? saved.selectedMapName : "";
     state.selectedLayer = maps.some((map) => map.layer === saved.selectedLayer) ? saved.selectedLayer : "";
+    if (!state.selectedMapName && state.selectedLayer) {
+      state.selectedMapName = getSelectedMap()?.name || "";
+    }
     state.manualLayer = typeof saved.manualLayer === "string" ? saved.manualLayer : "";
     state.factionOne = factions.some((faction) => faction.code === saved.factionOne) ? saved.factionOne : "";
     state.factionTwo = factions.some((faction) => faction.code === saved.factionTwo) ? saved.factionTwo : "";
@@ -1885,8 +2065,6 @@ function loadState() {
 function syncControlsFromState() {
   elements.manualLayer.value = state.manualLayer;
   elements.mapSearch.value = state.search;
-  elements.factionOne.value = state.factionOne;
-  elements.factionTwo.value = state.factionTwo;
   updateUnitTypeOptions("unitOne");
   updateUnitTypeOptions("unitTwo");
 }
@@ -1900,14 +2078,23 @@ function renderPopularLayers() {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "popular-btn";
-      button.innerHTML = `<strong>${escapeHtml(map.layer)}</strong><span>${escapeHtml(map.name)} · ${escapeHtml(t("modeLabels")[map.mode] || map.mode)}</span>`;
+      button.innerHTML = `<strong>${escapeHtml(map.name)}</strong><span>${escapeHtml(map.layer)} · ${escapeHtml(t("modeLabels")[map.mode] || map.mode)}</span>`;
       button.addEventListener("click", () => {
+        state.selectedMapName = map.name;
         state.selectedLayer = map.layer;
+        state.manualLayer = "";
         state.mode = "All";
         state.search = "";
+        state.factionOne = "";
+        state.factionTwo = "";
+        state.unitOne = "";
+        state.unitTwo = "";
         syncControlsFromState();
         renderModeFilters();
         renderMapCards();
+        renderLayerCards();
+        renderFactionOptions();
+        updateWorkflowVisibility(true);
         generateCommand();
         saveState();
       });
@@ -1933,6 +2120,11 @@ function bindEvents() {
 
   elements.manualLayer.addEventListener("input", (event) => {
     state.manualLayer = event.target.value;
+    if (state.manualLayer.trim()) {
+      state.selectedLayer = "";
+    }
+    renderLayerCards();
+    updateWorkflowVisibility(true);
     generateCommand();
     saveState();
   });
@@ -1940,22 +2132,7 @@ function bindEvents() {
   elements.clearManualLayer.addEventListener("click", () => {
     state.manualLayer = "";
     elements.manualLayer.value = "";
-    generateCommand();
-    saveState();
-  });
-
-  elements.factionOne.addEventListener("change", (event) => {
-    state.factionOne = event.target.value;
-    state.unitOne = "";
-    updateUnitTypeOptions("unitOne");
-    generateCommand();
-    saveState();
-  });
-
-  elements.factionTwo.addEventListener("change", (event) => {
-    state.factionTwo = event.target.value;
-    state.unitTwo = "";
-    updateUnitTypeOptions("unitTwo");
+    updateWorkflowVisibility();
     generateCommand();
     saveState();
   });
@@ -1972,6 +2149,38 @@ function bindEvents() {
     saveState();
   });
 
+  elements.backToMaps.addEventListener("click", () => {
+    state.selectedMapName = "";
+    state.selectedLayer = "";
+    state.manualLayer = "";
+    state.factionOne = "";
+    state.factionTwo = "";
+    state.unitOne = "";
+    state.unitTwo = "";
+    syncControlsFromState();
+    renderMapCards();
+    renderLayerCards();
+    renderFactionOptions();
+    updateWorkflowVisibility();
+    generateCommand();
+    saveState();
+  });
+
+  elements.backToModes.addEventListener("click", () => {
+    state.selectedLayer = "";
+    state.manualLayer = "";
+    state.factionOne = "";
+    state.factionTwo = "";
+    state.unitOne = "";
+    state.unitTwo = "";
+    syncControlsFromState();
+    renderLayerCards();
+    renderFactionOptions();
+    updateWorkflowVisibility(true);
+    generateCommand();
+    saveState();
+  });
+
   elements.copyButton.addEventListener("click", copyCommand);
   elements.resetButton.addEventListener("click", resetForm);
   elements.swapButton.addEventListener("click", swapFactions);
@@ -1981,11 +2190,13 @@ function bindEvents() {
 function init() {
   loadState();
   applyTranslations();
-  renderFactionOptions();
   syncControlsFromState();
   renderModeFilters();
   renderPopularLayers();
   renderMapCards();
+  renderLayerCards();
+  renderFactionOptions();
+  updateWorkflowVisibility();
   generateCommand();
   bindEvents();
 }
