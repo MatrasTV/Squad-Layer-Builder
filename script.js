@@ -1465,6 +1465,95 @@ const modeFilters = ["All", "AAS", "RAAS", "Invasion", "Seed", "Skirmish", "TC",
 const popularLayerNames = ["Sumari_Seed_v1", "AlBasrah_AAS_v1", "Fallujah_Invasion_v1", "Gorodok_RAAS_v1", "Yehorivka_RAAS_v1", "Mutaha_Seed_v1"];
 const storageKey = "squad-layer-builder-state-v1";
 
+const translations = {
+  ru: {
+    documentTitle: "LayerForge · Squad Layer Builder",
+    languageToggleAria: "Переключить язык на английский",
+    languageCurrent: "Русский",
+    languageOther: "English",
+    projectName: "Squad Layer Builder",
+    subtitle: "Генератор AdminChangeLayer команд для Squad",
+    waitingStatus: "Ожидание выбора",
+    readyStatus: "Команда готова",
+    formatHint: "AdminChangeLayer <LayerName> <Faction> <Faction>",
+    waitingCommand: "Выберите слой и обе фракции, чтобы сгенерировать команду",
+    copyButton: "Скопировать команду",
+    copiedButton: "Скопировано!",
+    swapButton: "Поменять фракции",
+    resetButton: "Сбросить",
+    stepOne: "Шаг 01",
+    setupTitle: "Настройка слоя и фракций",
+    manualLayerLabel: "Ручной LayerName",
+    manualLayerPlaceholder: "Пример: Sumari_Seed_v1",
+    clearButton: "Очистить",
+    manualLayerHelp: "Если поле заполнено, оно используется вместо выбранной карточки карты.",
+    factionOneTitle: "Фракция 1",
+    factionTwoTitle: "Фракция 2",
+    factionLabel: "Фракция",
+    unitLabel: "Battlegroup / тип подразделения",
+    restrictionNote: "Некоторые слои могут ограничивать фракции или battlegroups в зависимости от текущей версии Squad.",
+    quickPick: "Быстрый выбор",
+    popularTitle: "Популярные слои",
+    stepTwo: "Шаг 02",
+    layersTitle: "Выберите слой карты",
+    searchLabel: "Поиск карт",
+    searchPlaceholder: "Поиск по карте, LayerName или режиму",
+    modeFiltersAria: "Фильтры режимов слоёв",
+    noLayers: "Слои не найдены",
+    footerText: "Сделано для администраторов серверов Squad",
+    selectFaction: "Выберите фракцию",
+    noUnitType: "Без типа подразделения",
+    noMapImage: "Нет изображения карты",
+    sameFactionWarning: "Предупреждение: обе стороны используют одну фракцию. Обычно слои Squad рассчитаны на разные игровые фракции.",
+    selectLayerAria: "Выбрать",
+    minimapAlt: "миникарта",
+    modeLabels: { All: "Все", AAS: "AAS", RAAS: "RAAS", Invasion: "Invasion", Seed: "Seed", Skirmish: "Skirmish", TC: "TC", Destruction: "Destruction", Insurgency: "Insurgency" },
+  },
+  en: {
+    documentTitle: "LayerForge · Squad Layer Builder",
+    languageToggleAria: "Switch language to Russian",
+    languageCurrent: "English",
+    languageOther: "Русский",
+    projectName: "Squad Layer Builder",
+    subtitle: "AdminChangeLayer command builder for Squad",
+    waitingStatus: "Waiting for selection",
+    readyStatus: "Command ready",
+    formatHint: "AdminChangeLayer <LayerName> <Faction> <Faction>",
+    waitingCommand: "Select layer and both factions to generate command",
+    copyButton: "Copy command",
+    copiedButton: "Copied!",
+    swapButton: "Swap factions",
+    resetButton: "Reset",
+    stepOne: "Step 01",
+    setupTitle: "Layer and faction setup",
+    manualLayerLabel: "Manual LayerName override",
+    manualLayerPlaceholder: "Example: Sumari_Seed_v1",
+    clearButton: "Clear",
+    manualLayerHelp: "If this field is filled, it is used instead of the selected map card.",
+    factionOneTitle: "Faction 1",
+    factionTwoTitle: "Faction 2",
+    factionLabel: "Faction",
+    unitLabel: "Battlegroup / Unit type",
+    restrictionNote: "Some layers may restrict factions or battlegroups depending on the current Squad version.",
+    quickPick: "Quick pick",
+    popularTitle: "Popular layers",
+    stepTwo: "Step 02",
+    layersTitle: "Choose a map layer",
+    searchLabel: "Search maps",
+    searchPlaceholder: "Search by map, LayerName, or mode",
+    modeFiltersAria: "Layer mode filters",
+    noLayers: "No layers found",
+    footerText: "Made for Squad server admins",
+    selectFaction: "Select faction",
+    noUnitType: "No unit type",
+    noMapImage: "No map image",
+    sameFactionWarning: "Warning: both sides use the same faction. Squad layers usually expect opposing playable factions.",
+    selectLayerAria: "Select",
+    minimapAlt: "minimap",
+    modeLabels: { All: "All", AAS: "AAS", RAAS: "RAAS", Invasion: "Invasion", Seed: "Seed", Skirmish: "Skirmish", TC: "TC", Destruction: "Destruction", Insurgency: "Insurgency" },
+  },
+};
+
 const state = {
   selectedLayer: "",
   manualLayer: "",
@@ -1474,6 +1563,7 @@ const state = {
   unitTwo: "",
   search: "",
   mode: "All",
+  language: "ru",
 };
 
 const elements = {
@@ -1494,7 +1584,42 @@ const elements = {
   copyButton: document.getElementById("copyButton"),
   swapButton: document.getElementById("swapButton"),
   resetButton: document.getElementById("resetButton"),
+  languageToggle: document.getElementById("languageToggle"),
 };
+
+function t(key) {
+  return translations[state.language]?.[key] || translations.ru[key] || key;
+}
+
+function applyTranslations() {
+  document.documentElement.lang = state.language;
+  document.title = t("documentTitle");
+
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    node.textContent = t(node.dataset.i18n);
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((node) => {
+    node.placeholder = t(node.dataset.i18nPlaceholder);
+  });
+
+  document.querySelectorAll("[data-i18n-aria]").forEach((node) => {
+    node.setAttribute("aria-label", t(node.dataset.i18nAria));
+  });
+}
+
+function toggleLanguage() {
+  state.language = state.language === "ru" ? "en" : "ru";
+  applyTranslations();
+  renderFactionOptions();
+  updateUnitTypeOptions("unitOne");
+  updateUnitTypeOptions("unitTwo");
+  renderModeFilters();
+  renderMapCards();
+  renderPopularLayers();
+  generateCommand();
+  saveState();
+}
 
 function getSelectedMap() {
   return maps.find((map) => map.layer === state.selectedLayer) || null;
@@ -1526,7 +1651,7 @@ function renderModeFilters() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `filter-btn${state.mode === mode ? " active" : ""}`;
-    button.textContent = mode;
+    button.textContent = t("modeLabels")[mode] || mode;
     button.addEventListener("click", () => {
       state.mode = mode;
       renderModeFilters();
@@ -1554,7 +1679,7 @@ function renderMapCards() {
     card.tabIndex = 0;
     card.setAttribute("role", "button");
     card.setAttribute("aria-pressed", String(state.selectedLayer === map.layer));
-    card.setAttribute("aria-label", `Select ${map.layer}`);
+    card.setAttribute("aria-label", `${t("selectLayerAria")} ${map.layer}`);
 
     const badge = document.createElement("span");
     badge.className = "mode-badge";
@@ -1562,7 +1687,7 @@ function renderMapCards() {
 
     const image = document.createElement("img");
     image.src = map.image;
-    image.alt = `${map.name} minimap`;
+    image.alt = `${map.name} ${t("minimapAlt")}`;
     image.loading = "lazy";
     image.addEventListener("error", () => replaceBrokenImage(image));
 
@@ -1593,12 +1718,12 @@ function renderMapCards() {
 function replaceBrokenImage(image) {
   const placeholder = document.createElement("div");
   placeholder.className = "image-placeholder";
-  placeholder.textContent = "No map image";
+  placeholder.textContent = t("noMapImage");
   image.replaceWith(placeholder);
 }
 
 function renderFactionOptions() {
-  const placeholder = createOption("", "Select faction");
+  const placeholder = createOption("", t("selectFaction"));
   elements.factionOne.innerHTML = "";
   elements.factionTwo.innerHTML = "";
   elements.factionOne.appendChild(placeholder.cloneNode(true));
@@ -1623,7 +1748,7 @@ function updateUnitTypeOptions(selectId) {
   const availableUnits = faction?.unitTypes || [];
 
   unitSelect.innerHTML = "";
-  unitSelect.appendChild(createOption("", "No unit type"));
+  unitSelect.appendChild(createOption("", t("noUnitType")));
 
   availableUnits.forEach((unitType) => {
     unitSelect.appendChild(createOption(unitType, unitTypeLabels[unitType] || unitType));
@@ -1645,20 +1770,20 @@ function generateCommand() {
   const ready = Boolean(layerName && factionOnePart && factionTwoPart);
 
   if (!ready) {
-    elements.commandPreview.textContent = "Select layer and both factions to generate command";
-    elements.commandStatus.textContent = "Waiting for selection";
+    elements.commandPreview.textContent = t("waitingCommand");
+    elements.commandStatus.textContent = t("waitingStatus");
     elements.commandStatus.className = "status-pill waiting";
     elements.copyButton.disabled = true;
   } else {
     elements.commandPreview.textContent = `AdminChangeLayer ${layerName} ${factionOnePart} ${factionTwoPart}`;
-    elements.commandStatus.textContent = "Command ready";
+    elements.commandStatus.textContent = t("readyStatus");
     elements.commandStatus.className = "status-pill ready";
     elements.copyButton.disabled = false;
   }
 
   if (state.factionOne && state.factionTwo && state.factionOne === state.factionTwo) {
     elements.warningBox.hidden = false;
-    elements.warningBox.textContent = "Warning: both sides use the same faction. Squad layers usually expect opposing playable factions.";
+    elements.warningBox.textContent = t("sameFactionWarning");
   } else {
     elements.warningBox.hidden = true;
     elements.warningBox.textContent = "";
@@ -1697,8 +1822,8 @@ function fallbackCopy(text) {
 }
 
 function showCopiedState() {
-  const originalText = "Copy command";
-  elements.copyButton.textContent = "Copied!";
+  const originalText = t("copyButton");
+  elements.copyButton.textContent = t("copiedButton");
   window.setTimeout(() => {
     elements.copyButton.textContent = originalText;
   }, 1500);
@@ -1751,6 +1876,7 @@ function loadState() {
     state.unitTwo = typeof saved.unitTwo === "string" ? saved.unitTwo : "";
     state.search = typeof saved.search === "string" ? saved.search : "";
     state.mode = modeFilters.includes(saved.mode) ? saved.mode : "All";
+    state.language = saved.language === "en" ? "en" : "ru";
   } catch (error) {
     // Ignore old or broken saved data so the static page never crashes on load.
   }
@@ -1774,7 +1900,7 @@ function renderPopularLayers() {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "popular-btn";
-      button.innerHTML = `<strong>${escapeHtml(map.layer)}</strong><span>${escapeHtml(map.name)} · ${escapeHtml(map.mode)}</span>`;
+      button.innerHTML = `<strong>${escapeHtml(map.layer)}</strong><span>${escapeHtml(map.name)} · ${escapeHtml(t("modeLabels")[map.mode] || map.mode)}</span>`;
       button.addEventListener("click", () => {
         state.selectedLayer = map.layer;
         state.mode = "All";
@@ -1849,10 +1975,12 @@ function bindEvents() {
   elements.copyButton.addEventListener("click", copyCommand);
   elements.resetButton.addEventListener("click", resetForm);
   elements.swapButton.addEventListener("click", swapFactions);
+  elements.languageToggle.addEventListener("click", toggleLanguage);
 }
 
 function init() {
   loadState();
+  applyTranslations();
   renderFactionOptions();
   syncControlsFromState();
   renderModeFilters();

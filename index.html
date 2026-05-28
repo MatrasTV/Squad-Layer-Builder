@@ -1,31 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LayerForge · Squad Layer Builder</title>
-  <meta name="description" content="Static AdminChangeLayer command builder for Squad server admins.">
+  <meta name="description" content="Статический генератор AdminChangeLayer команд для администраторов серверов Squad.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="shell header-grid">
-      <div>
-        <p class="eyebrow">Squad Layer Builder</p>
+      <div class="hero-copy">
+        <div class="hero-topline">
+          <p class="eyebrow" data-i18n="projectName">Squad Layer Builder</p>
+          <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language" data-i18n-aria="languageToggleAria">
+            <span class="language-toggle__active" data-i18n="languageCurrent">Русский</span>
+            <span class="language-toggle__divider">/</span>
+            <span data-i18n="languageOther">English</span>
+          </button>
+        </div>
         <h1>LayerForge</h1>
-        <p class="subtitle">AdminChangeLayer command builder for Squad</p>
+        <p class="subtitle" data-i18n="subtitle">Генератор AdminChangeLayer команд для Squad</p>
       </div>
       <div class="command-card sticky-command" aria-live="polite">
         <div class="status-row">
-          <span id="commandStatus" class="status-pill waiting">Waiting for selection</span>
-          <span class="format-hint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
+          <span id="commandStatus" class="status-pill waiting" data-i18n="waitingStatus">Ожидание выбора</span>
+          <span class="format-hint" data-i18n="formatHint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
         </div>
-        <pre id="commandPreview" class="command-preview">Select layer and both factions to generate command</pre>
+        <pre id="commandPreview" class="command-preview" data-i18n="waitingCommand">Выберите слой и обе фракции, чтобы сгенерировать команду</pre>
         <div id="warningBox" class="warning-box" hidden></div>
         <div class="button-row">
-          <button id="copyButton" class="btn primary" type="button">Copy command</button>
-          <button id="swapButton" class="btn ghost" type="button">Swap factions</button>
-          <button id="resetButton" class="btn danger" type="button">Reset</button>
+          <button id="copyButton" class="btn primary" type="button" data-i18n="copyButton">Скопировать команду</button>
+          <button id="swapButton" class="btn ghost" type="button" data-i18n="swapButton">Поменять фракции</button>
+          <button id="resetButton" class="btn danger" type="button" data-i18n="resetButton">Сбросить</button>
         </div>
       </div>
     </div>
@@ -34,64 +41,64 @@
   <main class="shell layout">
     <section class="panel controls-panel" aria-labelledby="setupTitle">
       <div class="section-title">
-        <p class="eyebrow">Step 01</p>
-        <h2 id="setupTitle">Layer and faction setup</h2>
+        <p class="eyebrow" data-i18n="stepOne">Шаг 01</p>
+        <h2 id="setupTitle" data-i18n="setupTitle">Настройка слоя и фракций</h2>
       </div>
 
       <div class="manual-layer">
-        <label for="manualLayer">Manual LayerName override</label>
+        <label for="manualLayer" data-i18n="manualLayerLabel">Ручной LayerName</label>
         <div class="input-button-group">
-          <input id="manualLayer" type="text" placeholder="Example: Sumari_Seed_v1" autocomplete="off">
-          <button id="clearManualLayer" class="btn mini" type="button">Clear</button>
+          <input id="manualLayer" type="text" placeholder="Пример: Sumari_Seed_v1" autocomplete="off" data-i18n-placeholder="manualLayerPlaceholder">
+          <button id="clearManualLayer" class="btn mini" type="button" data-i18n="clearButton">Очистить</button>
         </div>
-        <p class="help-text">If this field is filled, it is used instead of the selected map card.</p>
+        <p class="help-text" data-i18n="manualLayerHelp">Если поле заполнено, оно используется вместо выбранной карточки карты.</p>
       </div>
 
       <div class="faction-grid">
         <article class="faction-card">
-          <h3>Faction 1</h3>
-          <label for="factionOne">Faction</label>
+          <h3 data-i18n="factionOneTitle">Фракция 1</h3>
+          <label for="factionOne" data-i18n="factionLabel">Фракция</label>
           <select id="factionOne"></select>
-          <label for="unitOne">Battlegroup / Unit type</label>
+          <label for="unitOne" data-i18n="unitLabel">Battlegroup / тип подразделения</label>
           <select id="unitOne"></select>
         </article>
         <article class="faction-card">
-          <h3>Faction 2</h3>
-          <label for="factionTwo">Faction</label>
+          <h3 data-i18n="factionTwoTitle">Фракция 2</h3>
+          <label for="factionTwo" data-i18n="factionLabel">Фракция</label>
           <select id="factionTwo"></select>
-          <label for="unitTwo">Battlegroup / Unit type</label>
+          <label for="unitTwo" data-i18n="unitLabel">Battlegroup / тип подразделения</label>
           <select id="unitTwo"></select>
         </article>
       </div>
 
-      <p class="note">Some layers may restrict factions or battlegroups depending on the current Squad version.</p>
+      <p class="note" data-i18n="restrictionNote">Некоторые слои могут ограничивать фракции или battlegroups в зависимости от текущей версии Squad.</p>
     </section>
 
     <section class="panel popular-panel" aria-labelledby="popularTitle">
       <div class="section-title compact">
-        <p class="eyebrow">Quick pick</p>
-        <h2 id="popularTitle">Popular layers</h2>
+        <p class="eyebrow" data-i18n="quickPick">Быстрый выбор</p>
+        <h2 id="popularTitle" data-i18n="popularTitle">Популярные слои</h2>
       </div>
       <div id="popularLayers" class="popular-layers"></div>
     </section>
 
     <section class="panel map-panel" aria-labelledby="layersTitle">
       <div class="section-title">
-        <p class="eyebrow">Step 02</p>
-        <h2 id="layersTitle">Choose a map layer</h2>
+        <p class="eyebrow" data-i18n="stepTwo">Шаг 02</p>
+        <h2 id="layersTitle" data-i18n="layersTitle">Выберите слой карты</h2>
       </div>
       <div class="map-tools">
-        <label class="search-label" for="mapSearch">Search maps</label>
-        <input id="mapSearch" type="search" placeholder="Search by map, LayerName, or mode" autocomplete="off">
-        <div id="modeFilters" class="mode-filters" aria-label="Layer mode filters"></div>
+        <label class="search-label" for="mapSearch" data-i18n="searchLabel">Поиск карт</label>
+        <input id="mapSearch" type="search" placeholder="Поиск по карте, LayerName или режиму" autocomplete="off" data-i18n-placeholder="searchPlaceholder">
+        <div id="modeFilters" class="mode-filters" aria-label="Фильтры режимов слоёв" data-i18n-aria="modeFiltersAria"></div>
       </div>
       <div id="mapGrid" class="map-grid" aria-live="polite"></div>
-      <p id="emptyMessage" class="empty-message" hidden>No layers found</p>
+      <p id="emptyMessage" class="empty-message" hidden data-i18n="noLayers">Слои не найдены</p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="shell">Made for Squad server admins</div>
+    <div class="shell" data-i18n="footerText">Сделано для администраторов серверов Squad</div>
   </footer>
 
   <script src="script.js"></script>

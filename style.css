@@ -75,6 +75,43 @@ button, input, select { font: inherit; }
 
 h1, h2, h3, p { margin-top: 0; }
 
+.hero-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.hero-topline .eyebrow { margin-bottom: 0; }
+
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(181,229,107,0.28);
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: var(--muted);
+  background: rgba(255,255,255,0.05);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+}
+
+.language-toggle:hover {
+  transform: translateY(-1px);
+  border-color: rgba(181,229,107,0.62);
+  background: rgba(146,195,83,0.1);
+}
+
+.language-toggle__active {
+  color: var(--green-strong);
+  font-weight: 900;
+}
+
+.language-toggle__divider { color: var(--soft); }
+
 h1 {
   margin-bottom: 8px;
   font-size: clamp(2.8rem, 7vw, 6.2rem);
@@ -345,6 +382,7 @@ select option { background: #121712; color: var(--text); }
   .shell { width: min(100% - 22px, 1420px); }
   .site-header { padding-top: 26px; }
   .panel, .command-card { padding: 16px; border-radius: 16px; }
+  .hero-topline { align-items: flex-start; flex-direction: column; }
   .status-row, .section-title { display: block; }
   .format-hint { display: block; margin-top: 8px; text-align: left; }
   .input-button-group { flex-wrap: wrap; }
