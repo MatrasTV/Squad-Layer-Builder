@@ -1,1218 +1,1421 @@
 "use strict";
 
 // Data was transferred from README.md. Add new Squad maps or factions here when README.md is updated.
+// allowedUnitTypes limits battlegroups per LayerName. Use null when exact layer restrictions are not known yet.
 const maps = [
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Invasion_v3",
     "mode": "Invasion",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Al Basrah/albasrah_minimap.webp"
+    "image": "assets/maps/Al Basrah/albasrah_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v1.webp"
+    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Seed_v2",
     "mode": "Seed",
-    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v2.webp"
+    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v2.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v2.webp"
+    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v2.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Skirmish_v3",
     "mode": "Skirmish",
-    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Anvil",
     "layer": "Anvil_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Anvil/Anvil_Minimap.webp"
+    "image": "assets/maps/Anvil/Anvil_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Belaya Pass",
     "layer": "Belaya_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp"
+    "image": "assets/maps/Belaya Pass/Belaya_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp"
+    "image": "assets/maps/Black Coast/Black_Coast_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Black Coast/T_BlackCoast_Seed_v1.webp"
+    "image": "assets/maps/Black Coast/T_BlackCoast_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Black Coast",
     "layer": "BlackCoast_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Black Coast/T_BlackCoast_Seed_v1.webp"
+    "image": "assets/maps/Black Coast/T_BlackCoast_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Chora/Chora_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Chora/Chora_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Chora",
     "layer": "Chora_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Chora/Chora_Minimap.webp"
+    "image": "assets/maps/Chora/Chora_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp"
+    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp"
+    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp"
+    "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fallujah",
     "layer": "Fallujah_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp"
+    "image": "assets/maps/Fallujah/T_Fallujah_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_Destruction_v1",
     "mode": "Destruction",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp"
+    "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap_Seed_v1.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Goose Bay",
     "layer": "GooseBay_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Goose Bay/GooseBay_Minimap_Seed_v1.webp"
+    "image": "assets/maps/Goose Bay/GooseBay_Minimap_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_Destruction_v1",
     "mode": "Destruction",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Gorodok/Gorodok_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Gorodok/Gorodok_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Gorodok",
     "layer": "Gorodok_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Gorodok/gorodok_minimap.webp"
+    "image": "assets/maps/Gorodok/gorodok_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Invasion_v3",
     "mode": "Invasion",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Harju",
     "layer": "Harju_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Harju/Harju_Minimap.webp"
+    "image": "assets/maps/Harju/Harju_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kamdesh Highlands",
     "layer": "Kamdesh_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp"
+    "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kohat Toi",
     "layer": "Kohat_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Kohat Toi/kohat_minimap.webp"
+    "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Kokan",
     "layer": "Kokan_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp"
+    "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Lashkar Valley",
     "layer": "Lashkar_TC_v2",
     "mode": "TC",
-    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp"
+    "image": "assets/maps/Lashkar Valley/T_Lashkar_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp"
+    "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Manicouagan",
     "layer": "Manicouagan_Skirmish_v3",
     "mode": "Skirmish",
-    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp"
+    "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mestia",
     "layer": "Mestia_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp"
+    "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap_Seed_v1.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap_Seed_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp"
+    "image": "assets/maps/Mutaha/Mutaha_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_Destruction_v1",
     "mode": "Destruction",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Narva",
     "layer": "Narva_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Narva/Narva_Minimap.webp"
+    "image": "assets/maps/Narva/Narva_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Pacific Proving Grounds",
     "layer": "PacificProvingGrounds_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Pacific Proving Grounds/T_PacificProvingGrounds_V1_Minimap.webp"
+    "image": "assets/maps/Pacific Proving Grounds/T_PacificProvingGrounds_V1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Pacific Proving Grounds",
     "layer": "PacificProvingGrounds_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Pacific Proving Grounds/T_PacificProvingGrounds_V1_Minimap.webp"
+    "image": "assets/maps/Pacific Proving Grounds/T_PacificProvingGrounds_V1_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sanxian Islands",
     "layer": "Sanxian_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp"
+    "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Skorpo",
     "layer": "Skorpo_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp"
+    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Skorpo",
     "layer": "Skorpo_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp"
+    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Skorpo",
     "layer": "Skorpo_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp"
+    "image": "assets/maps/Skorpo/Skorpo_Minimap_RAAS_v3.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Skorpo",
     "layer": "Skorpo_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Skorpo/Skorpo_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Skorpo/Skorpo_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_AAS_v3",
     "mode": "AAS",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_Insurgency_v1",
     "mode": "Insurgency",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": ["LightInfantry"]
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp"
+    "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Seed_v1",
     "mode": "Seed",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v2.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v2.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Skirmish_v3",
     "mode": "Skirmish",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v2.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v2.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp"
+    "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_AAS_v1",
     "mode": "AAS",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_AAS_v2",
     "mode": "AAS",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Destruction_v1",
     "mode": "Destruction",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Invasion_v1",
     "mode": "Invasion",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Invasion_v2",
     "mode": "Invasion",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_RAAS_v1",
     "mode": "RAAS",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_RAAS_v2",
     "mode": "RAAS",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Skirmish_v1",
     "mode": "Skirmish",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Skirmish_v2",
     "mode": "Skirmish",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_TC_v1",
     "mode": "TC",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_TC_v2",
     "mode": "TC",
-    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp"
+    "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
+    "allowedUnitTypes": null
   }
 ];
 
@@ -1688,6 +1891,22 @@ function getLayerName() {
   return state.manualLayer.trim() || state.selectedLayer;
 }
 
+function getActiveLayerData() {
+  const layerName = getLayerName();
+  return maps.find((map) => map.layer === layerName) || null;
+}
+
+function getAllowedUnitTypesForFaction(faction) {
+  const factionUnits = faction?.unitTypes || [];
+  const layerAllowedUnits = getActiveLayerData()?.allowedUnitTypes;
+
+  if (!Array.isArray(layerAllowedUnits)) {
+    return factionUnits;
+  }
+
+  return factionUnits.filter((unitType) => layerAllowedUnits.includes(unitType));
+}
+
 function getFaction(code) {
   return factions.find((faction) => faction.code === code) || null;
 }
@@ -1890,7 +2109,7 @@ function updateUnitTypeOptions(selectId) {
   const unitSelect = isFirst ? elements.unitOne : elements.unitTwo;
   const selectedUnit = isFirst ? state.unitOne : state.unitTwo;
   const faction = getFaction(factionCode);
-  const availableUnits = faction?.unitTypes || [];
+  const availableUnits = getAllowedUnitTypesForFaction(faction);
 
   unitSelect.innerHTML = "";
   unitSelect.appendChild(createOption("", t("noUnitType")));
@@ -2124,6 +2343,8 @@ function bindEvents() {
       state.selectedLayer = "";
     }
     renderLayerCards();
+    updateUnitTypeOptions("unitOne");
+    updateUnitTypeOptions("unitTwo");
     updateWorkflowVisibility(true);
     generateCommand();
     saveState();
@@ -2132,6 +2353,8 @@ function bindEvents() {
   elements.clearManualLayer.addEventListener("click", () => {
     state.manualLayer = "";
     elements.manualLayer.value = "";
+    updateUnitTypeOptions("unitOne");
+    updateUnitTypeOptions("unitTwo");
     updateWorkflowVisibility();
     generateCommand();
     saveState();
