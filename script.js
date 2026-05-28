@@ -1,7 +1,7 @@
 "use strict";
 
 // Data was transferred from README.md. Add new Squad maps or factions here when README.md is updated.
-// allowedUnitTypes limits battlegroups per LayerName. Use null when exact layer restrictions are not known yet.
+// allowedUnitTypes limits battlegroups per LayerName. Use [] for layers that allow No unit type only, and null when exact restrictions are not known yet.
 const maps = [
   {
     "name": "Al Basrah",
@@ -64,28 +64,36 @@ const maps = [
     "layer": "AlBasrah_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Seed_v2",
     "mode": "Seed",
     "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Seed_v2.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_Skirmish_v2",
     "mode": "Skirmish",
     "image": "assets/maps/Al Basrah/T_AlBasrah_Minimap_Skirmish_v2.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Al Basrah",
@@ -183,7 +191,11 @@ const maps = [
     "layer": "Belaya_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Belaya Pass/Belaya_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Belaya Pass",
@@ -239,7 +251,7 @@ const maps = [
     "layer": "BlackCoast_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Black Coast/T_BlackCoast_Seed_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Black Coast",
@@ -302,7 +314,11 @@ const maps = [
     "layer": "Chora_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Chora/Chora_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Chora",
@@ -358,7 +374,7 @@ const maps = [
     "layer": "Fallujah_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Fallujah/Fallujah_Minimap_Skirmish.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Fallujah",
@@ -421,14 +437,22 @@ const maps = [
     "layer": "FoolsRoad_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Fool's Road",
     "layer": "FoolsRoad_Skirmish_v2",
     "mode": "Skirmish",
     "image": "assets/maps/Fool's Road/Fools_Road_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Fool's Road",
@@ -470,7 +494,7 @@ const maps = [
     "layer": "GooseBay_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Goose Bay/GooseBay_Minimap_Seed_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Goose Bay",
@@ -533,7 +557,11 @@ const maps = [
     "layer": "Gorodok_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Gorodok/Gorodok_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Gorodok",
@@ -617,7 +645,7 @@ const maps = [
     "layer": "Harju_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Harju/Harju_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Harju",
@@ -659,7 +687,11 @@ const maps = [
     "layer": "Kamdesh_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Kamdesh Highlands/Kamdesh_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Kamdesh Highlands",
@@ -715,7 +747,11 @@ const maps = [
     "layer": "Kohat_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Kohat Toi/kohat_minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Kohat Toi",
@@ -764,7 +800,11 @@ const maps = [
     "layer": "Kokan_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Kokan/T_Kokan_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Kokan",
@@ -855,14 +895,18 @@ const maps = [
     "layer": "Logar_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Logar Valley",
     "layer": "Logar_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Logar Valley/Logar_Valley_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Logar Valley",
@@ -925,7 +969,7 @@ const maps = [
     "layer": "Manicouagan_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Manicouagan/T_Manicouagan_Seed_v1_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Manicouagan",
@@ -981,7 +1025,11 @@ const maps = [
     "layer": "Mestia_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Mestia/T_Mestia_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Mestia",
@@ -1030,14 +1078,18 @@ const maps = [
     "layer": "Mutaha_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Mutaha/Mutaha_Minimap_Seed_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Mutaha",
     "layer": "Mutaha_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Mutaha/Mutaha_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Mutaha",
@@ -1100,7 +1152,11 @@ const maps = [
     "layer": "Narva_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Narva/Narva_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Narva",
@@ -1121,7 +1177,7 @@ const maps = [
     "layer": "PacificProvingGrounds_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Pacific Proving Grounds/T_PacificProvingGrounds_V1_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Sanxian Islands",
@@ -1177,7 +1233,7 @@ const maps = [
     "layer": "Sanxian_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Sanxian Islands/T_Sanxian_Minimap_Large.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Sanxian Islands",
@@ -1261,14 +1317,18 @@ const maps = [
     "layer": "Sumari_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
-    "allowedUnitTypes": ["LightInfantry"]
+    "allowedUnitTypes": []
   },
   {
     "name": "Sumari Bala",
     "layer": "Sumari_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Sumari Bala/Sumari_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Sumari Bala",
@@ -1310,21 +1370,29 @@ const maps = [
     "layer": "Tallil_Seed_v1",
     "mode": "Seed",
     "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": []
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v1.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Tallil Outskirts",
     "layer": "Tallil_Skirmish_v2",
     "mode": "Skirmish",
     "image": "assets/maps/Tallil Outskirts/Tallil_Outskirts_Minimap_Skirmish_v2.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Tallil Outskirts",
@@ -1394,14 +1462,22 @@ const maps = [
     "layer": "Yehorivka_Skirmish_v1",
     "mode": "Skirmish",
     "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Yehorivka",
     "layer": "Yehorivka_Skirmish_v2",
     "mode": "Skirmish",
     "image": "assets/maps/Yehorivka/Yehorivka_Minimap.webp",
-    "allowedUnitTypes": null
+    "allowedUnitTypes": [
+      "LightInfantry",
+      "Motorized",
+      "CombinedArms"
+    ]
   },
   {
     "name": "Yehorivka",
@@ -1896,9 +1972,19 @@ function getActiveLayerData() {
   return maps.find((map) => map.layer === layerName) || null;
 }
 
+function isSeedLayerName(layerName) {
+  return /(^|_)Seed(_|$)/i.test(layerName);
+}
+
 function getAllowedUnitTypesForFaction(faction) {
   const factionUnits = faction?.unitTypes || [];
-  const layerAllowedUnits = getActiveLayerData()?.allowedUnitTypes;
+  const layerName = getLayerName();
+  const activeLayer = getActiveLayerData();
+  const layerAllowedUnits = activeLayer?.allowedUnitTypes;
+
+  if (!activeLayer && isSeedLayerName(layerName)) {
+    return [];
+  }
 
   if (!Array.isArray(layerAllowedUnits)) {
     return factionUnits;
