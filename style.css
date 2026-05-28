@@ -142,8 +142,9 @@ h1 {
 
 .panel { padding: 22px; }
 
-.controls-panel, .popular-panel { grid-column: 1; }
-.map-panel { grid-column: 2; grid-row: 1 / span 2; }
+.popular-panel { grid-column: 1 / -1; }
+.controls-panel { grid-column: 1; grid-row: 2; }
+.map-panel { grid-column: 2; grid-row: 2; }
 
 .section-title {
   display: flex;
@@ -271,7 +272,11 @@ select option { background: #121712; color: var(--text); }
 .faction-card h3 { margin-bottom: 14px; color: var(--orange); }
 .faction-card select + label { margin-top: 14px; }
 
-.popular-layers { display: grid; gap: 10px; }
+.popular-layers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px;
+}
 .popular-btn {
   width: 100%;
   padding: 12px 14px;
