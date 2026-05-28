@@ -65,6 +65,7 @@ assets/
   flags/
     flag_ADF.png
     ...
+  favicon.svg
 ```
 
 ## Папка `assets/maps`
