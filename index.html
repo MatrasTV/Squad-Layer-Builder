@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LayerForge · Squad Layer Builder</title>
+  <meta name="description" content="Static AdminChangeLayer command builder for Squad server admins.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-grid">
+      <div>
+        <p class="eyebrow">Squad Layer Builder</p>
+        <h1>LayerForge</h1>
+        <p class="subtitle">AdminChangeLayer command builder for Squad</p>
+      </div>
+      <div class="command-card sticky-command" aria-live="polite">
+        <div class="status-row">
+          <span id="commandStatus" class="status-pill waiting">Waiting for selection</span>
+          <span class="format-hint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
+        </div>
+        <pre id="commandPreview" class="command-preview">Select layer and both factions to generate command</pre>
+        <div id="warningBox" class="warning-box" hidden></div>
+        <div class="button-row">
+          <button id="copyButton" class="btn primary" type="button">Copy command</button>
+          <button id="swapButton" class="btn ghost" type="button">Swap factions</button>
+          <button id="resetButton" class="btn danger" type="button">Reset</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell layout">
+    <section class="panel controls-panel" aria-labelledby="setupTitle">
+      <div class="section-title">
+        <p class="eyebrow">Step 01</p>
+        <h2 id="setupTitle">Layer and faction setup</h2>
+      </div>
+
+      <div class="manual-layer">
+        <label for="manualLayer">Manual LayerName override</label>
+        <div class="input-button-group">
+          <input id="manualLayer" type="text" placeholder="Example: Sumari_Seed_v1" autocomplete="off">
+          <button id="clearManualLayer" class="btn mini" type="button">Clear</button>
+        </div>
+        <p class="help-text">If this field is filled, it is used instead of the selected map card.</p>
+      </div>
+
+      <div class="faction-grid">
+        <article class="faction-card">
+          <h3>Faction 1</h3>
+          <label for="factionOne">Faction</label>
+          <select id="factionOne"></select>
+          <label for="unitOne">Battlegroup / Unit type</label>
+          <select id="unitOne"></select>
+        </article>
+        <article class="faction-card">
+          <h3>Faction 2</h3>
+          <label for="factionTwo">Faction</label>
+          <select id="factionTwo"></select>
+          <label for="unitTwo">Battlegroup / Unit type</label>
+          <select id="unitTwo"></select>
+        </article>
+      </div>
+
+      <p class="note">Some layers may restrict factions or battlegroups depending on the current Squad version.</p>
+    </section>
+
+    <section class="panel popular-panel" aria-labelledby="popularTitle">
+      <div class="section-title compact">
+        <p class="eyebrow">Quick pick</p>
+        <h2 id="popularTitle">Popular layers</h2>
+      </div>
+      <div id="popularLayers" class="popular-layers"></div>
+    </section>
+
+    <section class="panel map-panel" aria-labelledby="layersTitle">
+      <div class="section-title">
+        <p class="eyebrow">Step 02</p>
+        <h2 id="layersTitle">Choose a map layer</h2>
+      </div>
+      <div class="map-tools">
+        <label class="search-label" for="mapSearch">Search maps</label>
+        <input id="mapSearch" type="search" placeholder="Search by map, LayerName, or mode" autocomplete="off">
+        <div id="modeFilters" class="mode-filters" aria-label="Layer mode filters"></div>
+      </div>
+      <div id="mapGrid" class="map-grid" aria-live="polite"></div>
+      <p id="emptyMessage" class="empty-message" hidden>No layers found</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">Made for Squad server admins</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
