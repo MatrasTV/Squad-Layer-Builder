@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LayerForge · Squad Layer Builder</title>
+  <meta name="description" content="Статический генератор AdminChangeLayer команд для администраторов серверов Squad.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-grid">
+      <div class="hero-copy">
+        <div class="hero-topline">
+          <p class="eyebrow" data-i18n="projectName">Squad Layer Builder</p>
+          <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language" data-i18n-aria="languageToggleAria">
+            <span class="language-toggle__active" data-i18n="languageCurrent">Русский</span>
+            <span class="language-toggle__divider">/</span>
+            <span data-i18n="languageOther">English</span>
+          </button>
+        </div>
+        <h1>LayerForge</h1>
+        <p class="subtitle" data-i18n="subtitle">Генератор AdminChangeLayer команд для Squad</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell layout">
+    <section class="panel popular-panel" aria-labelledby="popularTitle">
+      <div class="section-title compact">
+        <p class="eyebrow" data-i18n="quickPick">Быстрый выбор</p>
+        <h2 id="popularTitle" data-i18n="popularTitle">Популярные слои</h2>
+      </div>
+      <div id="popularLayers" class="popular-layers"></div>
+    </section>
+
+    <section class="panel map-panel" aria-labelledby="mapsTitle">
+      <div class="section-title">
+        <p class="eyebrow" data-i18n="stepOne">Шаг 01</p>
+        <h2 id="mapsTitle" data-i18n="mapsTitle">Выберите карту</h2>
+      </div>
+      <div class="map-tools">
+        <label class="search-label" for="mapSearch" data-i18n="searchLabel">Поиск карт</label>
+        <input id="mapSearch" type="search" placeholder="Поиск по карте, LayerName или режиму" autocomplete="off" data-i18n-placeholder="searchPlaceholder">
+      </div>
+      <div id="mapGrid" class="map-grid" aria-live="polite"></div>
+      <p id="emptyMessage" class="empty-message" hidden data-i18n="noLayers">Слои не найдены</p>
+    </section>
+
+    <section id="modePanel" class="panel mode-panel" aria-labelledby="modeTitle" hidden>
+      <div class="section-title drill-title">
+        <div>
+          <p class="eyebrow" data-i18n="stepTwo">Шаг 02</p>
+          <h2 id="modeTitle" data-i18n="modeTitle">Выберите режим и слой</h2>
+          <p id="selectedMapSummary" class="selection-summary"></p>
+        </div>
+        <button id="backToMaps" class="btn ghost mini" type="button" data-i18n="backToMaps">Назад к картам</button>
+      </div>
+
+      <div class="manual-layer">
+        <label for="manualLayer" data-i18n="manualLayerLabel">Ручной LayerName</label>
+        <div class="input-button-group">
+          <input id="manualLayer" type="text" placeholder="Пример: Sumari_Seed_v1" autocomplete="off" data-i18n-placeholder="manualLayerPlaceholder">
+          <button id="clearManualLayer" class="btn mini" type="button" data-i18n="clearButton">Очистить</button>
+        </div>
+        <p class="help-text" data-i18n="manualLayerHelp">Если поле заполнено, оно используется вместо выбранного слоя.</p>
+      </div>
+
+      <div id="modeFilters" class="mode-filters" aria-label="Фильтры режимов слоёв" data-i18n-aria="modeFiltersAria"></div>
+      <div id="layerGrid" class="layer-grid" aria-live="polite"></div>
+      <p id="emptyLayerMessage" class="empty-message" hidden data-i18n="noLayers">Слои не найдены</p>
+    </section>
+
+    <section id="factionsPanel" class="panel controls-panel" aria-labelledby="setupTitle" hidden>
+      <div class="section-title drill-title">
+        <div>
+          <p class="eyebrow" data-i18n="stepThree">Шаг 03</p>
+          <h2 id="setupTitle" data-i18n="setupTitle">Выберите фракции</h2>
+          <p id="selectedLayerSummary" class="selection-summary"></p>
+        </div>
+        <button id="backToModes" class="btn ghost mini" type="button" data-i18n="backToModes">Назад к режимам</button>
+      </div>
+
+      <div class="faction-grid">
+        <article class="faction-card">
+          <h3 data-i18n="factionOneTitle">Фракция 1</h3>
+          <div id="factionOneGrid" class="faction-options" aria-label="Фракция 1" data-i18n-aria="factionOneTitle"></div>
+          <label for="unitOne" data-i18n="unitLabel">Battlegroup / тип подразделения</label>
+          <select id="unitOne"></select>
+        </article>
+        <article class="faction-card">
+          <h3 data-i18n="factionTwoTitle">Фракция 2</h3>
+          <div id="factionTwoGrid" class="faction-options" aria-label="Фракция 2" data-i18n-aria="factionTwoTitle"></div>
+          <label for="unitTwo" data-i18n="unitLabel">Battlegroup / тип подразделения</label>
+          <select id="unitTwo"></select>
+        </article>
+      </div>
+
+      <p class="note" data-i18n="restrictionNote">Некоторые слои могут ограничивать фракции или battlegroups в зависимости от текущей версии Squad.</p>
+    </section>
+
+    <section class="command-card command-panel" aria-live="polite">
+      <div class="status-row">
+        <span id="commandStatus" class="status-pill waiting" data-i18n="waitingStatus">Ожидание выбора</span>
+        <span class="format-hint" data-i18n="formatHint">AdminChangeLayer &lt;LayerName&gt; &lt;Faction&gt; &lt;Faction&gt;</span>
+      </div>
+      <pre id="commandPreview" class="command-preview" data-i18n="waitingCommand">Выберите слой и обе фракции, чтобы сгенерировать команду</pre>
+      <div id="warningBox" class="warning-box" hidden></div>
+      <div class="button-row">
+        <button id="copyButton" class="btn primary" type="button" data-i18n="copyButton">Скопировать команду</button>
+        <button id="swapButton" class="btn ghost" type="button" data-i18n="swapButton">Поменять фракции</button>
+        <button id="resetButton" class="btn danger" type="button" data-i18n="resetButton">Сбросить</button>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="shell" data-i18n="footerText">Сделано для администраторов серверов Squad</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

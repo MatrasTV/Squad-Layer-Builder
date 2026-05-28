@@ -1,8 +1,125 @@
-# Squad-Layer-Builder
-Быстрое и удобное создание команды AdminChangeLayer
+# Squad Layer Builder
 
-список всех лееров
+Squad Layer Builder — полностью статический мини-сайт для GitHub Pages. Он помогает администраторам серверов Squad быстро собрать команду `AdminChangeLayer` с выбранным LayerName, двумя фракциями и опциональными Unit Types / battlegroups.
 
+## Возможности
+
+- Пошаговый выбор: сначала карта, затем режим/слой, затем фракции.
+- Поиск по названию карты, LayerName и режиму.
+- Быстрые фильтры: All, AAS, RAAS, Invasion, Seed, Skirmish, TC, Destruction, Insurgency.
+- Выбор двух фракций карточками с флагами из `assets/flags` и доступных для них Unit Types.
+- Поддержка `allowedUnitTypes` на уровне конкретного LayerName: список доктрин считается как пересечение unit types фракции и ограничений слоя. Для Seed-слоёв доступны только `No unit type`.
+- Ручной ввод LayerName, который имеет приоритет над выбранной карточкой.
+- Автоматическая генерация команды.
+- Copy command, Reset, Swap factions.
+- Сохранение последнего выбора и языка интерфейса в `localStorage`.
+- Переключатель языка интерфейса: русский по умолчанию и английский.
+- Без backend, Node.js, npm, React, Vue, Angular, Vite, Webpack, CDN и внешних библиотек.
+
+## Пример команды
+
+```txt
+AdminChangeLayer Sumari_Seed_v1 WPMC+LightInfantry INS+CombinedArms
+```
+
+Если Unit Type не выбран, команда формируется только с кодом фракции:
+
+```txt
+AdminChangeLayer Sumari_Seed_v1 WPMC INS
+```
+
+## Как открыть локально
+
+Вариант 1 — просто открыть файл:
+
+1. Скачайте или клонируйте репозиторий.
+2. Откройте `index.html` в браузере.
+
+Вариант 2 — запустить простой локальный сервер из папки проекта:
+
+```bash
+python3 -m http.server 8000
+```
+
+После этого откройте `http://localhost:8000`.
+
+## Публикация на GitHub Pages
+
+1. Загрузите файлы проекта в GitHub-репозиторий.
+2. Откройте **Settings → Pages**.
+3. В разделе **Build and deployment** выберите **Deploy from a branch**.
+4. Выберите ветку `main` или `master` и папку `/root`.
+5. Сохраните настройки и дождитесь публикации.
+
+## Структура файлов
+
+```txt
+index.html
+style.css
+script.js
+README.md
+assets/
+  maps/
+    Al Basrah/
+      albasrah_minimap.webp
+    ...
+  flags/
+    flag_ADF.png
+    ...
+  favicon.svg
+```
+
+## Папка `assets/maps`
+
+В `assets/maps` хранятся `.webp` миникарты. Пути в `script.js` должны быть относительными web-путями и использовать прямой слеш `/`.
+
+Правильно:
+
+```txt
+assets/maps/Al Basrah/albasrah_minimap.webp
+```
+
+Неправильно:
+
+```txt
+Squad-Layer-Builder\assets\maps\Al Basrah\albasrah_minimap.webp
+```
+
+## Как добавить новую карту с картинкой
+
+1. Положите `.webp` файл в папку карты, например:
+
+```txt
+assets/maps/New Map/new_map_minimap.webp
+```
+
+2. Добавьте новый объект в массив `maps` в `script.js`:
+
+```js
+{
+  name: "New Map",
+  layer: "NewMap_RAAS_v1",
+  mode: "RAAS",
+  image: "assets/maps/New Map/new_map_minimap.webp"
+}
+```
+
+3. Если у новой карты несколько слоёв, добавьте отдельный объект для каждого LayerName.
+
+## Unit Types
+
+- `AirAssault` — Air Assault
+- `Armored` — Armored
+- `CombinedArms` — Combined Arms
+- `LightInfantry` — Light Infantry
+- `Mechanized` — Mechanized
+- `Motorized` — Motorized
+- `Support` — Support
+- `AmphibiousAssault` — Amphibious Assault
+
+## Список слоёв из исходного README
+
+```txt
 AlBasrah_AAS_v1 
 AlBasrah_AAS_v2
 AlBasrah_Insurgency_v1
@@ -229,12 +346,11 @@ Yehorivka_Skirmish_v1
 Yehorivka_Skirmish_v2
 Yehorivka_TC_v1
 Yehorivka_TC_v2
+```
 
+## Список фракций из исходного README
 
-
-
-
-
+```txt
 Код для команды	Фракция	Сторона / блок	Пример команды	Доступные варианты для команды
 AFU	Armed Forces of Ukraine / Вооружённые силы Украины	BLUFOR	AdminChangeLayer Sumari_Seed_v1 AFU INS	AFU+AirAssault, AFU+Armored, AFU+CombinedArms, AFU+LightInfantry, AFU+Mechanized, AFU+Motorized, AFU+Support, AFU+AmphibiousAssault
 ADF	Australian Defence Force / Австралийские силы обороны	BLUFOR	AdminChangeLayer Sumari_Seed_v1 ADF INS	ADF+AirAssault, ADF+CombinedArms, ADF+Mechanized
@@ -253,3 +369,4 @@ INS	Middle Eastern Insurgents / Повстанцы Ближнего Восток
 IMF	Irregular Militia Forces / Нерегулярное ополчение	Independent	AdminChangeLayer Sumari_Seed_v1 IMF WPMC	IMF+Armored, IMF+CombinedArms, IMF+LightInfantry, IMF+Mechanized, IMF+Motorized, IMF+Support
 WPMC	Western Private Military Contractors / Западная ЧВК	Independent	AdminChangeLayer Sumari_Seed_v1 WPMC INS	WPMC+AirAssault, WPMC+CombinedArms, WPMC+LightInfantry, WPMC+Motorized
 CRF	Canadian Resistance Forces / Канадское сопротивление	Independent	AdminChangeLayer Sumari_Seed_v1 CRF WPMC	CRF+CombinedArms
+```

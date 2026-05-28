@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LayerForge icon">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d251f"/>
+      <stop offset="1" stop-color="#070a07"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="16" y1="13" x2="48" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b5e56b"/>
+      <stop offset="1" stop-color="#e59a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M12 18h40M12 32h40M12 46h40M18 12v40M32 12v40M46 12v40" stroke="#2f3a30" stroke-width="2" opacity="0.75"/>
+  <path d="M32 8 51 18v28L32 56 13 46V18L32 8Z" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M32 18v28M20 34h24" stroke="#b5e56b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M21 24h9v5h-4v11h-5V24Zm13 0h13v5h-8v4h7v5h-7v6h-5V24Z" fill="#edf1e8"/>
+  <circle cx="32" cy="32" r="3" fill="#e59a3e"/>
+</svg>
