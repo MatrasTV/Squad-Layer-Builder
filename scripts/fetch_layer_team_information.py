@@ -1,24 +1,31 @@
 #!/usr/bin/env python3
 """Fetch current Squad layer factions and unit types from squadutils.org.
 
-Examples:
+Default usage updates every layer object in script.js in-place:
+    python3 scripts/fetch_layer_team_information.py
+
+Single-layer inspection is still available:
     python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1
     python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1 --json
-    python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1 --output sumari.json
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from pathlib import Path
 from typing import Any
 
 DEFAULT_API_URL = "https://squadutils.org/api/v1/teamInformation"
 DEFAULT_TIMEOUT_SECONDS = 20
+DEFAULT_SCRIPT_JS = Path("script.js")
+DEFAULT_DELAY_SECONDS = 0.05
 
 
 def build_url(api_url: str, layer_id: str) -> str:
@@ -57,6 +64,144 @@ def fetch_layer_information(api_url: str, layer_id: str, timeout: int) -> dict[s
         raise RuntimeError(f"API response for {layer_id} must be a JSON object")
 
     return data
+
+
+def normalize_team_information(data: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
+    """Keep only the fields the web app needs from squadutils team data."""
+    normalized: dict[str, list[dict[str, Any]]] = {}
+    teams = data.get("teams")
+    if not isinstance(teams, dict):
+        return normalized
+
+    for team_id, factions in teams.items():
+        if not isinstance(factions, list):
+            continue
+
+        normalized_factions = []
+        for faction in factions:
+            if not isinstance(faction, dict):
+                continue
+
+            faction_name = str(faction.get("name") or "").strip()
+            if not faction_name:
+                continue
+
+            allowed_units = []
+            for unit in faction.get("allowedUnitTypes") or []:
+                if not isinstance(unit, dict):
+                    continue
+
+                unit_key = str(unit.get("key") or "").strip()
+                if not unit_key:
+                    continue
+
+                allowed_units.append(
+                    {
+                        "key": unit_key,
+                        "prettyName": str(unit.get("prettyName") or unit_key).strip(),
+                        "fullUnitName": str(unit.get("fullUnitName") or "").strip(),
+                    }
+                )
+
+            normalized_factions.append({"name": faction_name, "allowedUnitTypes": allowed_units})
+
+        normalized[str(team_id)] = normalized_factions
+
+    return normalized
+
+
+def find_maps_array_bounds(source: str) -> tuple[int, int]:
+    """Return source bounds for the JavaScript maps array literal."""
+    match = re.search(r"const\s+maps\s*=\s*\[", source)
+    if not match:
+        raise RuntimeError("Could not find `const maps = [` in script.js")
+
+    start = match.end() - 1
+    depth = 0
+    in_string = False
+    escape = False
+
+    for index in range(start, len(source)):
+        char = source[index]
+
+        if in_string:
+            if escape:
+                escape = False
+            elif char == "\\":
+                escape = True
+            elif char == '"':
+                in_string = False
+            continue
+
+        if char == '"':
+            in_string = True
+        elif char == "[":
+            depth += 1
+        elif char == "]":
+            depth -= 1
+            if depth == 0:
+                return start, index + 1
+
+    raise RuntimeError("Could not find the end of the maps array in script.js")
+
+
+def load_maps(script_path: Path) -> tuple[str, list[dict[str, Any]], int, int]:
+    """Read script.js and parse the maps array."""
+    source = script_path.read_text(encoding="utf-8")
+    start, end = find_maps_array_bounds(source)
+    try:
+        maps = json.loads(source[start:end])
+    except json.JSONDecodeError as error:
+        raise RuntimeError(f"Could not parse maps array as JSON: {error}") from error
+
+    if not isinstance(maps, list):
+        raise RuntimeError("The maps array must contain a JSON list")
+
+    return source, maps, start, end
+
+
+def update_script_maps(
+    script_path: Path,
+    api_url: str,
+    timeout: int,
+    delay: float,
+    dry_run: bool,
+) -> int:
+    """Fetch team information for every layer in script.js and rewrite the maps array."""
+    source, maps, start, end = load_maps(script_path)
+    total = len(maps)
+
+    for index, layer in enumerate(maps, start=1):
+        if not isinstance(layer, dict):
+            raise RuntimeError(f"Map entry #{index} is not an object")
+
+        layer_id = str(layer.get("layer") or "").strip()
+        if not layer_id:
+            raise RuntimeError(f"Map entry #{index} does not have a layer value")
+
+        print(f"[{index}/{total}] Fetching {layer_id}...", file=sys.stderr)
+        layer.pop("allowedUnitTypes", None)
+        try:
+            data = fetch_layer_information(api_url, layer_id, timeout)
+        except RuntimeError as error:
+            print(f"Warning: {error}; writing empty teams for {layer_id}.", file=sys.stderr)
+            layer["teams"] = {}
+        else:
+            layer["teams"] = normalize_team_information(data)
+
+        if delay > 0 and index < total:
+            time.sleep(delay)
+
+    updated_maps = json.dumps(maps, ensure_ascii=False, indent=2)
+    updated_source = source[:start] + updated_maps + source[end:]
+
+    if dry_run:
+        print(f"Dry run: {script_path} was not changed.", file=sys.stderr)
+    else:
+        script_path.write_text(updated_source, encoding="utf-8")
+        print(f"Updated {total} layers in {script_path}.", file=sys.stderr)
+
+    return total
 
 
 def unit_label(unit: dict[str, Any]) -> str:
@@ -116,9 +261,18 @@ def summarize_layer(data: dict[str, Any], layer_id: str) -> str:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Fetch current available factions and doctrines for a Squad layer from squadutils.org."
+        description=(
+            "Update script.js with current Squad layer factions/doctrines from squadutils.org. "
+            "Pass a layer id to inspect just one layer."
+        )
     )
-    parser.add_argument("layer_id", help="LayerName/layerId, for example: Sumari_Seed_v1")
+    parser.add_argument("layer_id", nargs="?", help="Optional LayerName/layerId to inspect, for example: Sumari_Seed_v1")
+    parser.add_argument(
+        "--script-js",
+        type=Path,
+        default=DEFAULT_SCRIPT_JS,
+        help=f"path to script.js for full updates (default: {DEFAULT_SCRIPT_JS})",
+    )
     parser.add_argument(
         "--api-url",
         default=DEFAULT_API_URL,
@@ -131,13 +285,24 @@ def parse_args() -> argparse.Namespace:
         help=f"request timeout in seconds (default: {DEFAULT_TIMEOUT_SECONDS})",
     )
     parser.add_argument(
+        "--delay",
+        type=float,
+        default=DEFAULT_DELAY_SECONDS,
+        help=f"delay between full-update API requests in seconds (default: {DEFAULT_DELAY_SECONDS})",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="fetch all layer data but do not write script.js",
+    )
+    parser.add_argument(
         "--json",
         action="store_true",
-        help="print raw API JSON instead of a human-readable summary",
+        help="with layer_id: print raw API JSON instead of a human-readable summary",
     )
     parser.add_argument(
         "--output",
-        help="save raw API JSON to this file path",
+        help="with layer_id: save raw API JSON to this file path",
     )
     return parser.parse_args()
 
@@ -146,6 +311,10 @@ def main() -> int:
     args = parse_args()
 
     try:
+        if not args.layer_id:
+            update_script_maps(args.script_js, args.api_url, args.timeout, args.delay, args.dry_run)
+            return 0
+
         data = fetch_layer_information(args.api_url, args.layer_id, args.timeout)
     except RuntimeError as error:
         print(f"Error: {error}", file=sys.stderr)
