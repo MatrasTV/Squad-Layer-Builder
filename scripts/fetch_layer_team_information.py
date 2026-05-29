@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch current Squad layer factions and unit types from squadutils.org.
 
-Default usage updates every layer object in script.js in-place:
+Default usage updates every layer object in data/layers.js in-place:
     python3 scripts/fetch_layer_team_information.py
 
 Single-layer inspection is still available:
@@ -24,7 +24,7 @@ from typing import Any
 
 DEFAULT_API_URL = "https://squadutils.org/api/v1/teamInformation"
 DEFAULT_TIMEOUT_SECONDS = 20
-DEFAULT_SCRIPT_JS = Path("script.js")
+DEFAULT_LAYER_DATA = Path("data/layers.js")
 DEFAULT_DELAY_SECONDS = 0.05
 FACTION_ALIASES = {"MEI": "INS"}
 
@@ -132,7 +132,7 @@ def find_maps_array_bounds(source: str) -> tuple[int, int]:
     """Return source bounds for the JavaScript maps array literal."""
     match = re.search(r"const\s+maps\s*=\s*\[", source)
     if not match:
-        raise RuntimeError("Could not find `const maps = [` in script.js")
+        raise RuntimeError("Could not find `const maps = [` in the layer data file")
 
     start = match.end() - 1
     depth = 0
@@ -160,11 +160,11 @@ def find_maps_array_bounds(source: str) -> tuple[int, int]:
             if depth == 0:
                 return start, index + 1
 
-    raise RuntimeError("Could not find the end of the maps array in script.js")
+    raise RuntimeError("Could not find the end of the maps array in the layer data file")
 
 
 def load_maps(script_path: Path) -> tuple[str, list[dict[str, Any]], int, int]:
-    """Read script.js and parse the maps array."""
+    """Read the layer data file and parse the maps array."""
     source = script_path.read_text(encoding="utf-8")
     start, end = find_maps_array_bounds(source)
     try:
@@ -185,7 +185,7 @@ def update_script_maps(
     delay: float,
     dry_run: bool,
 ) -> int:
-    """Fetch team information for every layer in script.js and rewrite the maps array."""
+    """Fetch team information for every layer in the layer data file and rewrite the maps array."""
     source, maps, start, end = load_maps(script_path)
     total = len(maps)
 
@@ -280,16 +280,18 @@ def summarize_layer(data: dict[str, Any], layer_id: str) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Update script.js with current Squad layer factions/doctrines from squadutils.org. "
+            "Update the layer data file with current Squad layer factions/doctrines from squadutils.org. "
             "Pass a layer id to inspect just one layer."
         )
     )
     parser.add_argument("layer_id", nargs="?", help="Optional LayerName/layerId to inspect, for example: Sumari_Seed_v1")
     parser.add_argument(
+        "--layer-data",
         "--script-js",
+        dest="script_js",
         type=Path,
-        default=DEFAULT_SCRIPT_JS,
-        help=f"path to script.js for full updates (default: {DEFAULT_SCRIPT_JS})",
+        default=DEFAULT_LAYER_DATA,
+        help=f"path to the layer data file for full updates (default: {DEFAULT_LAYER_DATA})",
     )
     parser.add_argument(
         "--api-url",
@@ -311,7 +313,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="fetch all layer data but do not write script.js",
+        help="fetch all layer data but do not write the layer data file",
     )
     parser.add_argument(
         "--json",
