@@ -256,37 +256,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -768,37 +768,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -1288,37 +1288,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -1800,37 +1800,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -2167,37 +2167,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -2664,37 +2664,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -3144,37 +3144,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -3641,37 +3641,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -4121,37 +4121,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -4618,37 +4618,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -5258,37 +5258,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -5770,37 +5770,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -6290,37 +6290,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -6802,37 +6802,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             }
           ]
         },
@@ -7107,12 +7107,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -7269,12 +7269,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -7439,12 +7439,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -7601,12 +7601,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -7771,12 +7771,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -7933,12 +7933,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -8103,12 +8103,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -8265,12 +8265,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -8435,12 +8435,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -8597,12 +8597,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -8822,37 +8822,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -9299,37 +9299,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -9784,37 +9784,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -10246,37 +10246,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -10691,37 +10691,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -11168,37 +11168,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -11653,37 +11653,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -12130,37 +12130,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -12560,12 +12560,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -12712,12 +12712,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -18711,12 +18711,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -18863,12 +18863,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19023,12 +19023,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19175,12 +19175,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19335,12 +19335,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19487,12 +19487,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19759,12 +19759,12 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         }
@@ -19809,12 +19809,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -19961,12 +19961,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MD_CombinedArms"
+              "fullUnitName": "INS_MD_CombinedArms"
             }
           ]
         },
@@ -20121,12 +20121,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -20273,12 +20273,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MD_CombinedArms"
+              "fullUnitName": "INS_MD_CombinedArms"
             }
           ]
         },
@@ -20433,12 +20433,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -20585,12 +20585,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -20745,12 +20745,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -20897,12 +20897,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -21057,12 +21057,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -21209,12 +21209,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -21409,37 +21409,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -21876,37 +21876,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -22713,37 +22713,37 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         }
@@ -22828,37 +22828,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -23295,37 +23295,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -23760,37 +23760,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -24227,37 +24227,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -24692,37 +24692,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -25159,37 +25159,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -25634,37 +25634,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -26101,37 +26101,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -26536,12 +26536,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -26698,12 +26698,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -26868,12 +26868,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -27030,12 +27030,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -27200,12 +27200,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -27362,12 +27362,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -27572,37 +27572,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -28039,37 +28039,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -48729,37 +48729,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -49206,37 +49206,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -50048,37 +50048,37 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         }
@@ -50178,37 +50178,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -50640,37 +50640,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -51085,37 +51085,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -51562,37 +51562,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -51992,12 +51992,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -52144,12 +52144,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -52359,37 +52359,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -52836,37 +52836,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -53321,37 +53321,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -53798,37 +53798,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -54640,37 +54640,37 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         }
@@ -54770,37 +54770,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -55232,37 +55232,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -55677,37 +55677,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -56139,37 +56139,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -56584,37 +56584,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -57061,37 +57061,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -57546,37 +57546,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -58023,37 +58023,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -58453,12 +58453,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -58605,12 +58605,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -58820,37 +58820,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -59297,37 +59297,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -59727,12 +59727,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -59879,12 +59879,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -60151,12 +60151,12 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         }
@@ -60201,12 +60201,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -60353,12 +60353,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MD_CombinedArms"
+              "fullUnitName": "INS_MD_CombinedArms"
             }
           ]
         },
@@ -60513,12 +60513,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -60665,12 +60665,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -60832,12 +60832,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -60984,12 +60984,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -61144,12 +61144,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -61296,12 +61296,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_MO_CombinedArms"
+              "fullUnitName": "INS_MO_CombinedArms"
             }
           ]
         },
@@ -61511,37 +61511,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -61988,37 +61988,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -62473,37 +62473,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -62950,37 +62950,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -63792,37 +63792,37 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         }
@@ -63922,37 +63922,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -64384,37 +64384,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -64829,37 +64829,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -65306,37 +65306,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -65736,12 +65736,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -65888,12 +65888,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -66103,37 +66103,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -66580,37 +66580,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -67065,37 +67065,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -67542,37 +67542,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -67972,12 +67972,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -68124,12 +68124,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -68396,12 +68396,12 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         }
@@ -68446,12 +68446,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -68598,12 +68598,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -68758,12 +68758,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -68910,12 +68910,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -69070,12 +69070,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -69222,12 +69222,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -69382,12 +69382,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -69534,12 +69534,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -78468,37 +78468,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -78935,37 +78935,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -79410,37 +79410,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -79877,37 +79877,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -80352,37 +80352,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -80819,37 +80819,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -81284,37 +81284,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -81751,37 +81751,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -82226,37 +82226,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -82693,37 +82693,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -83128,12 +83128,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -83290,12 +83290,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -83460,12 +83460,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -83622,12 +83622,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -83832,37 +83832,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -84299,37 +84299,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -100462,12 +100462,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -100614,12 +100614,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -100774,12 +100774,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -100926,12 +100926,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -101086,12 +101086,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -101238,12 +101238,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -101510,12 +101510,12 @@ const maps = [
       ],
       "2": [
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         }
@@ -101560,12 +101560,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -101712,12 +101712,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -101872,12 +101872,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -102024,12 +102024,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -102184,12 +102184,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -102336,12 +102336,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -102496,12 +102496,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -102648,12 +102648,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -102808,12 +102808,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -102960,12 +102960,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -103160,37 +103160,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -103627,37 +103627,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -104102,37 +104102,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -104569,37 +104569,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LD_CombinedArms"
+              "fullUnitName": "INS_LD_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LD_Armored"
+              "fullUnitName": "INS_LD_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LD_LightInfantry"
+              "fullUnitName": "INS_LD_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LD_Mechanized"
+              "fullUnitName": "INS_LD_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LD_Motorized"
+              "fullUnitName": "INS_LD_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LD_Support"
+              "fullUnitName": "INS_LD_Support"
             }
           ]
         },
@@ -105034,37 +105034,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -105501,37 +105501,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -105976,37 +105976,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -106443,37 +106443,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -106878,12 +106878,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -107040,12 +107040,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms_Seed",
               "prettyName": "Combined Arms (Seed)",
-              "fullUnitName": "MEI_S_CombinedArms_Seed"
+              "fullUnitName": "INS_S_CombinedArms_Seed"
             }
           ]
         },
@@ -107210,12 +107210,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -107372,12 +107372,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -107542,12 +107542,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -107704,12 +107704,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -107874,12 +107874,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -108036,12 +108036,12 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_S_CombinedArms"
+              "fullUnitName": "INS_S_CombinedArms"
             }
           ]
         },
@@ -108246,37 +108246,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -108713,37 +108713,37 @@ const maps = [
           ]
         },
         {
-          "name": "MEI",
+          "name": "INS",
           "allowedUnitTypes": [
             {
               "key": "CombinedArms",
               "prettyName": "Combined Arms",
-              "fullUnitName": "MEI_LO_CombinedArms"
+              "fullUnitName": "INS_LO_CombinedArms"
             },
             {
               "key": "Armored",
               "prettyName": "Armored",
-              "fullUnitName": "MEI_LO_Armored"
+              "fullUnitName": "INS_LO_Armored"
             },
             {
               "key": "LightInfantry",
               "prettyName": "Light Infantry",
-              "fullUnitName": "MEI_LO_LightInfantry"
+              "fullUnitName": "INS_LO_LightInfantry"
             },
             {
               "key": "Mechanized",
               "prettyName": "Mechanized",
-              "fullUnitName": "MEI_LO_Mechanized"
+              "fullUnitName": "INS_LO_Mechanized"
             },
             {
               "key": "Motorized",
               "prettyName": "Motorized",
-              "fullUnitName": "MEI_LO_Motorized"
+              "fullUnitName": "INS_LO_Motorized"
             },
             {
               "key": "Support",
               "prettyName": "Support",
-              "fullUnitName": "MEI_LO_Support"
+              "fullUnitName": "INS_LO_Support"
             }
           ]
         },
@@ -118256,20 +118256,6 @@ const factions = [
       "Support"
     ],
     "flag": "assets/flags/flag_TLF.png"
-  },
-  {
-    "code": "MEI",
-    "name": "Middle Eastern Insurgents",
-    "side": "Independent",
-    "unitTypes": [
-      "Armored",
-      "CombinedArms",
-      "LightInfantry",
-      "Mechanized",
-      "Motorized",
-      "Support"
-    ],
-    "flag": "assets/flags/flag_MEI.png"
   },
   {
     "code": "INS",

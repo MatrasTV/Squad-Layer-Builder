@@ -26,6 +26,8 @@ DEFAULT_API_URL = "https://squadutils.org/api/v1/teamInformation"
 DEFAULT_TIMEOUT_SECONDS = 20
 DEFAULT_SCRIPT_JS = Path("script.js")
 DEFAULT_DELAY_SECONDS = 0.05
+FACTION_ALIASES = {"MEI": "INS"}
+
 
 
 def build_url(api_url: str, layer_id: str) -> str:
@@ -66,6 +68,19 @@ def fetch_layer_information(api_url: str, layer_id: str, timeout: int) -> dict[s
     return data
 
 
+def canonical_faction_code(faction_name: str) -> str:
+    """Return the command faction code used by this app for API aliases."""
+    return FACTION_ALIASES.get(faction_name, faction_name)
+
+
+def canonical_full_unit_name(full_unit_name: str, faction_name: str) -> str:
+    """Keep API battlegroup names aligned with canonical faction codes."""
+    canonical_name = canonical_faction_code(faction_name)
+    if canonical_name != faction_name and full_unit_name.startswith(f"{faction_name}_"):
+        return f"{canonical_name}_{full_unit_name[len(faction_name) + 1:]}"
+    return full_unit_name
+
+
 def normalize_team_information(data: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     """Keep only the fields the web app needs from squadutils team data."""
     normalized: dict[str, list[dict[str, Any]]] = {}
@@ -77,35 +92,38 @@ def normalize_team_information(data: dict[str, Any]) -> dict[str, list[dict[str,
         if not isinstance(factions, list):
             continue
 
-        normalized_factions = []
+        factions_by_name: dict[str, dict[str, Any]] = {}
         for faction in factions:
             if not isinstance(faction, dict):
                 continue
 
-            faction_name = str(faction.get("name") or "").strip()
-            if not faction_name:
+            api_faction_name = str(faction.get("name") or "").strip()
+            if not api_faction_name:
                 continue
 
-            allowed_units = []
+            faction_name = canonical_faction_code(api_faction_name)
+            normalized_faction = factions_by_name.setdefault(faction_name, {"name": faction_name, "allowedUnitTypes": []})
+            existing_unit_keys = {unit["key"] for unit in normalized_faction["allowedUnitTypes"]}
+
             for unit in faction.get("allowedUnitTypes") or []:
                 if not isinstance(unit, dict):
                     continue
 
                 unit_key = str(unit.get("key") or "").strip()
-                if not unit_key:
+                if not unit_key or unit_key in existing_unit_keys:
                     continue
 
-                allowed_units.append(
+                full_unit_name = str(unit.get("fullUnitName") or "").strip()
+                normalized_faction["allowedUnitTypes"].append(
                     {
                         "key": unit_key,
                         "prettyName": str(unit.get("prettyName") or unit_key).strip(),
-                        "fullUnitName": str(unit.get("fullUnitName") or "").strip(),
+                        "fullUnitName": canonical_full_unit_name(full_unit_name, api_faction_name),
                     }
                 )
+                existing_unit_keys.add(unit_key)
 
-            normalized_factions.append({"name": faction_name, "allowedUnitTypes": allowed_units})
-
-        normalized[str(team_id)] = normalized_factions
+        normalized[str(team_id)] = list(factions_by_name.values())
 
     return normalized
 
