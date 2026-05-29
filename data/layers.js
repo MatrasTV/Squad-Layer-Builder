@@ -2,7 +2,8 @@
 
 // Map metadata is static, while each layer's teams contain squadutils.org faction and battlegroup restrictions.
 // Run scripts/fetch_layer_team_information.py to refresh every layer from the API.
-const maps = [
+window.LayerForgeData = window.LayerForgeData || {};
+window.LayerForgeData.maps = [
   {
     "name": "Al Basrah",
     "layer": "AlBasrah_AAS_v1",

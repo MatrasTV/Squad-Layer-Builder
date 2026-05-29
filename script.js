@@ -1,4 +1,19 @@
+(() => {
 "use strict";
+
+if (window.LayerForgeAppInitialized) {
+  return;
+}
+window.LayerForgeAppInitialized = true;
+
+const {
+  factions = [],
+  maps = [],
+  modeFilters = [],
+  popularLayerNames = [],
+  storageKey = "squad-layer-builder-state-v1",
+  unitTypeLabels = {},
+} = window.LayerForgeData || {};
 
 const translations = {
   ru: {
@@ -804,3 +819,4 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+})();

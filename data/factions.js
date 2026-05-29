@@ -1,7 +1,8 @@
 "use strict";
 
 // Shared faction metadata and UI constants used by the LayerForge app.
-const factions = [
+window.LayerForgeData = window.LayerForgeData || {};
+window.LayerForgeData.factions = [
   {
     "code": "AFU",
     "name": "Armed Forces of Ukraine",
@@ -235,7 +236,7 @@ const factions = [
   }
 ];
 
-const unitTypeLabels = {
+window.LayerForgeData.unitTypeLabels = {
   AirAssault: "Air Assault",
   Armored: "Armored",
   CombinedArms: "Combined Arms",
@@ -246,6 +247,6 @@ const unitTypeLabels = {
   AmphibiousAssault: "Amphibious Assault",
 };
 
-const modeFilters = ["All", "AAS", "RAAS", "Invasion", "Seed", "Skirmish", "TC", "Destruction", "Insurgency"];
-const popularLayerNames = ["Sumari_Seed_v1", "AlBasrah_AAS_v1", "Fallujah_Invasion_v1", "Gorodok_RAAS_v1", "Yehorivka_RAAS_v1", "Mutaha_Seed_v1"];
-const storageKey = "squad-layer-builder-state-v1";
+window.LayerForgeData.modeFilters = ["All", "AAS", "RAAS", "Invasion", "Seed", "Skirmish", "TC", "Destruction", "Insurgency"];
+window.LayerForgeData.popularLayerNames = ["Sumari_Seed_v1", "AlBasrah_AAS_v1", "Fallujah_Invasion_v1", "Gorodok_RAAS_v1", "Yehorivka_RAAS_v1", "Mutaha_Seed_v1"];
+window.LayerForgeData.storageKey = "squad-layer-builder-state-v1";
