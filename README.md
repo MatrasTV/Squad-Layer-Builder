@@ -106,6 +106,29 @@ assets/maps/New Map/new_map_minimap.webp
 
 3. Если у новой карты несколько слоёв, добавьте отдельный объект для каждого LayerName.
 
+
+## Получение актуальных фракций и доктрин слоя
+
+Для проверки текущих ограничений конкретного LayerName можно использовать скрипт `scripts/fetch_layer_team_information.py`. Он обращается к `https://squadutils.org/api/v1/teamInformation?layerId=<LayerName>` и выводит доступные фракции и battlegroups / unit types по командам.
+
+Пример:
+
+```bash
+python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1
+```
+
+Полезные опции:
+
+```bash
+# вывести сырой JSON из API
+python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1 --json
+
+# сохранить сырой JSON в файл и одновременно показать краткую сводку
+python3 scripts/fetch_layer_team_information.py Sumari_Seed_v1 --output sumari_team_information.json
+```
+
+Скрипт использует только стандартную библиотеку Python, поэтому дополнительные зависимости устанавливать не нужно.
+
 ## Unit Types
 
 - `AirAssault` — Air Assault
